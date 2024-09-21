@@ -2,6 +2,7 @@ package tetris.logic
 
 import engine.random.{RandomGenerator, ScalaRandomGen}
 import tetris.logic.TetrisLogic._
+import com.lowagie.text.Cell
 
 /** To implement Tetris, complete the ``TODOs`` below.
  *
@@ -17,11 +18,14 @@ class TetrisLogic(val randomGen: RandomGenerator,
 
   def this() =
     this(new ScalaRandomGen(), DefaultDims, makeEmptyBoard(DefaultDims))
-  val initialBoardMap: Map[(Int,Int), CellType] = (for {
-    x <- initialBoard.indices
-    y <- initialBoard(x).indices
-  } yield (x, y) -> initialBoard(x)(y)).toMap
-  println(initialBoardMap)
+
+
+  val initialBoardMap: Map[(Int, Int), CellType] =  (
+    for {
+      x <- 0 until gridDims.width
+      y <- 0 until gridDims.height
+    } yield (x,y) -> Empty
+  ).toMap
   var currGameState : GameState = new GameState(randomGen, initialBoardMap);
   // TODO implement me
   def rotateLeft(): Unit = ()
@@ -47,6 +51,7 @@ class TetrisLogic(val randomGen: RandomGenerator,
   // TODO implement me
   def getCellType(p : Point): CellType = {
     return currGameState.newBoard(p.toTuple())
+    
   }
 }
 

@@ -16,7 +16,8 @@ class GameState(val randomGen : RandomGenerator,
         6 -> LPiece()
     )
     val piece : Tetronimo = allPieces(randomGen.randomInt(7))
-    val piecePosition : List[Point] = piece.structure.map(p => Point(p.x, p.y - 3))
+    val piecePosition : List[Point] = piece.structure.map(p => Point(p.x, p.y + 3))
+    //println(piecePosition)
     def pointInPiece(p : Point) : Boolean = {
         for(i <- piecePosition){
             if(i.sameAs(p)){
@@ -29,6 +30,7 @@ class GameState(val randomGen : RandomGenerator,
     val newBoard : Map[(Int,Int), CellType] = board.map {
         case (key, value) =>
             if(pointInPiece(Point(key._1, key._2))){
+                //println(piece.cell)
                 key -> piece.cell
             }else{
                 key -> Empty

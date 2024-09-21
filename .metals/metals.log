@@ -935,3 +935,107 @@ Sep 21, 2024 4:22:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 17929
 2024.09.21 16:22:47 INFO  compiling oofp-tetris-2024 (1 scala source)
 2024.09.21 16:22:47 INFO  time: compiled OOFP-Tetris-2024 in 0.85s
+2024.09.21 16:26:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:26:59 INFO  time: compiled OOFP-Tetris-2024 in 0.94s
+2024.09.21 16:27:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:27:01 INFO  time: compiled OOFP-Tetris-2024 in 0.3s
+2024.09.21 16:27:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:27:21 INFO  time: compiled OOFP-Tetris-2024 in 0.86s
+2024.09.21 16:27:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:27:44 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.21 16:27:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:27:55 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+Sep 21, 2024 4:28:16 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1321, count -1, length 2615
+2024.09.21 16:28:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:28:22 INFO  time: compiled OOFP-Tetris-2024 in 0.87s
+2024.09.21 16:29:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:29:21 INFO  time: compiled OOFP-Tetris-2024 in 0.81s
+2024.09.21 16:29:25 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:29:26 INFO  time: compiled OOFP-Tetris-2024 in 1.29s
+Sep 21, 2024 4:29:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18541
+2024.09.21 16:30:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:30:17 INFO  time: compiled OOFP-Tetris-2024 in 0.77s
+2024.09.21 16:30:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:30:38 INFO  time: compiled OOFP-Tetris-2024 in 0.81s
+2024.09.21 16:31:25 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:31:25 INFO  time: compiled OOFP-Tetris-2024 in 0.96s
+2024.09.21 16:31:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:31:35 INFO  time: compiled OOFP-Tetris-2024 in 1.24s
+2024.09.21 16:31:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:31:43 INFO  time: compiled OOFP-Tetris-2024 in 0.82s
+2024.09.21 16:32:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:32:41 INFO  time: compiled OOFP-Tetris-2024 in 0.9s
+2024.09.21 16:35:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:35:17 INFO  time: compiled OOFP-Tetris-2024 in 0.81s
+2024.09.21 16:36:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:36:21 INFO  time: compiled OOFP-Tetris-2024 in 0.83s
+2024.09.21 16:36:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:36:47 INFO  time: compiled OOFP-Tetris-2024 in 0.77s
+2024.09.21 16:38:16 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:38:16 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.21 16:38:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:38:24 INFO  time: compiled OOFP-Tetris-2024 in 0.83s
+2024.09.21 16:38:26 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:38:28 INFO  time: compiled OOFP-Tetris-2024 in 1.25s
+2024.09.21 16:38:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:38:36 INFO  time: compiled OOFP-Tetris-2024 in 0.79s
+2024.09.21 16:40:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:40:49 INFO  time: compiled OOFP-Tetris-2024 in 0.81s
+2024.09.21 16:40:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:40:58 INFO  time: compiled OOFP-Tetris-2024 in 0.84s
+2024.09.21 16:41:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:41:34 INFO  time: compiled OOFP-Tetris-2024 in 0.85s
+2024.09.21 16:42:05 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:42:05 INFO  time: compiled OOFP-Tetris-2024 in 0.94s
+2024.09.21 16:42:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:42:15 INFO  time: compiled OOFP-Tetris-2024 in 0.97s
+2024.09.21 16:44:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:44:59 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.21 16:45:07 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:45:07 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.21 16:45:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:45:13 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.21 16:46:11 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:46:11 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.21 16:46:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:46:21 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.21 16:46:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:46:31 INFO  time: compiled OOFP-Tetris-2024 in 0.85s
+2024.09.21 16:46:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 16:46:51 INFO  time: compiled OOFP-Tetris-2024 in 0.87s
+2024.09.21 21:07:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:07:20 INFO  time: compiled OOFP-Tetris-2024 in 0.68s
+2024.09.21 21:08:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:08:46 INFO  time: compiled OOFP-Tetris-2024 in 0.27s
+Sep 21, 2024 9:09:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20011
+Sep 21, 2024 9:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20136
+Sep 21, 2024 9:11:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20152
+2024.09.21 21:11:29 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:11:29 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+Sep 21, 2024 9:11:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20222
+Sep 21, 2024 9:11:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20240
+2024.09.21 21:11:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:11:38 INFO  time: compiled OOFP-Tetris-2024 in 0.28s
+2024.09.21 21:11:54 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:11:54 INFO  time: compiled OOFP-Tetris-2024 in 0.24s
+2024.09.21 21:11:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:11:58 INFO  time: compiled OOFP-Tetris-2024 in 0.51s
+2024.09.21 21:12:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:12:23 INFO  time: compiled OOFP-Tetris-2024 in 0.36s
+2024.09.21 21:12:27 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:12:27 INFO  time: compiled OOFP-Tetris-2024 in 0.4s
+2024.09.21 21:12:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:12:37 INFO  time: compiled OOFP-Tetris-2024 in 0.45s
+2024.09.21 21:12:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.21 21:12:42 INFO  time: compiled OOFP-Tetris-2024 in 1.68s
+2024.09.21 21:13:11 INFO  Shutting down server
+2024.09.21 21:13:11 INFO  shutting down Metals
+2024.09.21 21:13:11 INFO  Shut down connection with build server.
+2024.09.21 21:13:11 INFO  Exiting server

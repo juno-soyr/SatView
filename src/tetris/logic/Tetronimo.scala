@@ -27,7 +27,7 @@ case class LPiece() extends Tetronimo{
 }
 case class OPiece() extends Tetronimo{
     override def cell : CellType = OCell
-    override def structure : List[Point] = List(Point(0,0),Point(0,1),Point(1,1),Point(0,1))
+    override def structure : List[Point] = List(Point(0,0),Point(0,1),Point(1,1),Point(1,0))
 }
 case class SPiece() extends  Tetronimo{
     override def cell : CellType = SCell
