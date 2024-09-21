@@ -17,7 +17,12 @@ class TetrisLogic(val randomGen: RandomGenerator,
 
   def this() =
     this(new ScalaRandomGen(), DefaultDims, makeEmptyBoard(DefaultDims))
-
+  val initialBoardMap: Map[(Int,Int), CellType] = (for {
+    x <- initialBoard.indices
+    y <- initialBoard(x).indices
+  } yield (x, y) -> initialBoard(x)(y)).toMap
+  println(initialBoardMap)
+  var currGameState : GameState = new GameState(randomGen, initialBoardMap);
   // TODO implement me
   def rotateLeft(): Unit = ()
 
@@ -40,7 +45,9 @@ class TetrisLogic(val randomGen: RandomGenerator,
   def isGameOver: Boolean = false
 
   // TODO implement me
-  def getCellType(p : Point): CellType = Empty
+  def getCellType(p : Point): CellType = {
+    return currGameState.newBoard(p.toTuple())
+  }
 }
 
 object TetrisLogic {
