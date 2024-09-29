@@ -1039,3 +1039,1349 @@ WARNING: Unmatched cancel notification for request id 20240
 2024.09.21 21:13:11 INFO  shutting down Metals
 2024.09.21 21:13:11 INFO  Shut down connection with build server.
 2024.09.21 21:13:11 INFO  Exiting server
+2024.09.21 21:16:44 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6947d7e7]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4f440007]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6947d7e7]
+2024.09.21 21:16:46 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.21 21:16:49 INFO  Attempting to connect to the build server...
+2024.09.21 21:16:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.09.21 21:16:50 INFO  time: Connected to build server in 1.24s
+2024.09.21 21:16:50 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.25 01:36:36 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6d40dc66]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@7868418d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6d40dc66]
+2024.09.25 01:36:41 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.25 01:36:43 INFO  Attempting to connect to the build server...
+2024.09.25 01:36:45 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 25, 2024 1:36:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2024.09.25 01:36:48 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 25, 2024 1:36:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Sep 25, 2024 1:36:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 25, 2024 1:36:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Sep 25, 2024 1:36:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Sep 25, 2024 1:36:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Sep 25, 2024 1:36:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+Sep 25, 2024 1:36:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+Sep 25, 2024 1:36:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2024.09.25 01:36:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.25 01:36:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.25 01:36:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.09.25 01:36:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.25 01:36:54 INFO  time: Connected to build server in 11s
+2024.09.25 01:36:54 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.25 01:36:55 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.25 01:36:55 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.25 01:36:55 INFO  time: Imported build in 0.73s
+2024.09.25 01:36:56 INFO  running doctor check
+2024.09.25 01:36:56 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+2024.09.25 01:37:03 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.25 01:37:04 INFO  time: indexed workspace in 9.07s
+2024.09.25 01:37:06 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 1552)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 94)
+2024.09.25 01:37:09 WARN  javac exited with exit code 1
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 95)
+2024.09.25 01:37:09 INFO  time: compiled OOFP-Tetris-2024-test in 3.37s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 94)
+2024.09.25 01:37:09 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 97)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 96)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 97)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 98)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 87, 87, 99)
+2024.09.25 01:37:12 WARN  javac exited with exit code 1
+2024.09.25 01:37:12 INFO  time: compiled OOFP-Tetris-2024-test in 2.36s
+2024.09.25 01:37:12 INFO  compiling oofp-tetris-2024 (1 scala source)
+Sep 25, 2024 1:37:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 151
+2024.09.25 01:37:17 INFO  time: compiled OOFP-Tetris-2024 in 4.58s
+2024.09.25 01:37:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:17 INFO  time: compiled OOFP-Tetris-2024 in 0.71s
+2024.09.25 01:37:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:23 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.25 01:37:26 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:27 INFO  time: compiled OOFP-Tetris-2024 in 1.57s
+2024.09.25 01:37:27 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:27 INFO  time: compiled OOFP-Tetris-2024 in 0.39s
+2024.09.25 01:37:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:30 INFO  time: compiled OOFP-Tetris-2024 in 0.83s
+2024.09.25 01:37:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:31 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.25 01:37:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:31 INFO  time: compiled OOFP-Tetris-2024 in 0.36s
+2024.09.25 01:37:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:31 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.25 01:37:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:51 INFO  time: compiled OOFP-Tetris-2024 in 0.76s
+2024.09.25 01:37:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:37:51 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.25 01:38:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:06 INFO  time: compiled OOFP-Tetris-2024 in 84ms
+2024.09.25 01:38:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:10 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.25 01:38:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:20 INFO  time: compiled OOFP-Tetris-2024 in 0.8s
+2024.09.25 01:38:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:20 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.25 01:38:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:22 INFO  time: compiled OOFP-Tetris-2024 in 0.31s
+2024.09.25 01:38:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:22 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.25 01:38:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:44 INFO  time: compiled OOFP-Tetris-2024 in 81ms
+2024.09.25 01:38:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:53 INFO  time: compiled OOFP-Tetris-2024 in 82ms
+2024.09.25 01:38:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:55 INFO  time: compiled OOFP-Tetris-2024 in 0.73s
+2024.09.25 01:38:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:55 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.25 01:38:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:57 INFO  time: compiled OOFP-Tetris-2024 in 0.28s
+2024.09.25 01:38:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.25 01:38:57 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.25 01:39:13 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.25 01:39:13 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.25 01:39:21 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.25 01:39:21 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.25 18:24:55 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@17fff8d9]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@6bc8cdb9]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@17fff8d9]
+2024.09.25 18:25:00 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.25 18:25:01 INFO  Attempting to connect to the build server...
+2024.09.25 18:25:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.09.25 18:25:06 INFO  time: Connected to build server in 5.69s
+2024.09.25 18:25:06 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.25 18:25:07 INFO  time: Imported build in 0.34s
+2024.09.25 18:25:07 INFO  running doctor check
+2024.09.25 18:25:07 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+2024.09.25 18:25:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.25 18:25:14 INFO  time: indexed workspace in 8.09s
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala
+2024.09.25 18:25:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala
+2024.09.25 18:25:16 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.25 18:25:18 INFO  time: compiled OOFP-Tetris-2024 in 1.96s
+2024.09.25 18:25:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.25 18:25:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.25 18:25:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.25 18:25:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.25 18:25:19 INFO  time: compiled OOFP-Tetris-2024 in 0.77s
+2024.09.25 18:25:19 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.25 18:25:19 INFO  time: compiled OOFP-Tetris-2024 in 0.65s
+2024.09.25 18:25:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.25 18:25:35 INFO  Shutting down server
+2024.09.25 18:25:35 INFO  shutting down Metals
+2024.09.25 18:25:36 INFO  Shut down connection with build server.
+2024.09.25 18:25:35 INFO  Exiting server
+2024.09.29 13:05:37 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@67791179]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@8442b2d]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@67791179]
+2024.09.29 13:05:39 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.29 13:05:40 INFO  Attempting to connect to the build server...
+2024.09.29 13:05:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.29 13:05:47 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 29, 2024 1:05:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.09.29 13:05:47 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Sep 29, 2024 1:05:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Sep 29, 2024 1:05:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+2024.09.29 13:05:50 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.29 13:05:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.29 13:05:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.29 13:05:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.09.29 13:05:53 INFO  time: Connected to build server in 13s
+2024.09.29 13:05:54 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.29 13:05:55 INFO  time: Imported build in 0.93s
+2024.09.29 13:05:55 INFO  running doctor check
+2024.09.29 13:05:55 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+2024.09.29 13:06:01 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.29 13:06:03 INFO  time: indexed workspace in 8.34s
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala
+2024.09.29 13:06:04 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala
+2024.09.29 13:06:07 INFO  compiling oofp-tetris-2024 (2 scala sources)
+Sep 29, 2024 1:06:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+2024.09.29 13:06:13 INFO  time: compiled OOFP-Tetris-2024 in 6.78s
+2024.09.29 13:06:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:13 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 13:06:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 13:06:15 INFO  time: compiled OOFP-Tetris-2024 in 1.22s
+2024.09.29 13:06:15 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:15 INFO  time: compiled OOFP-Tetris-2024 in 0.77s
+2024.09.29 13:06:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:17 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:06:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:33 INFO  time: compiled OOFP-Tetris-2024 in 0.32s
+2024.09.29 13:06:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:35 INFO  time: compiled OOFP-Tetris-2024 in 0.47s
+2024.09.29 13:06:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:37 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:37 INFO  time: compiled OOFP-Tetris-2024 in 0.26s
+2024.09.29 13:06:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:38 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 13:06:38 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 13:06:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 13:06:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 13:08:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 17:20:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:22:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:24:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:25:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:26:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:26:18 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 17:26:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+Sep 29, 2024 5:26:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+2024.09.29 17:26:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:40 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:26:47 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:26:47 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 17:26:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:27:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 315, 315, 329)
+2024.09.29 17:27:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 315, 315, 322)
+2024.09.29 17:27:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 315, 315, 323)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 315, 315, 324)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala in List[tetris.logic.Point]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala, 315, 315, 326)
+2024.09.29 17:27:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:47 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:27:47 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 17:27:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:55 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:27:55 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 17:27:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:55 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:27:55 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 17:27:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:27:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:27:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:27:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:27:58 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:27:58 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 17:27:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:28:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 711
+2024.09.29 17:28:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:28:10 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:28:10 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 17:28:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:28:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:30:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:30:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:31:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:31:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:31:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:31:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:31:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:38:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:40:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:41:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:41:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:44:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:40 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 257)
+2024.09.29 17:44:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 250)
+2024.09.29 17:44:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 251)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 252)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 253)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 254)
+2024.09.29 17:44:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 253)
+2024.09.29 17:44:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 262)
+2024.09.29 17:44:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 255)
+2024.09.29 17:44:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 256)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 257)
+2024.09.29 17:44:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 258)
+2024.09.29 17:44:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 257)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 258)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[tetris.logic.Point]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 259)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 248, 248, 260)
+2024.09.29 17:44:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:47 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:44:47 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:44:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:49 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:44:49 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 17:44:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:55 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:44:55 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 17:44:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:44:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:00 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:45:00 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 17:45:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[Int,List[tetris.logic.Point]]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 243, 243, 263)
+2024.09.29 17:45:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:45:18 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:45:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:22 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:45:22 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 17:45:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:23 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:45:23 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 17:45:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:45:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:02 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:06 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:06 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:46:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:46:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1453
+2024.09.29 17:46:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:33 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 17:46:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:38 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:38 INFO  time: compiled OOFP-Tetris-2024 in 0.28s
+2024.09.29 17:46:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:40 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:40 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:46:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:46 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:46 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:46:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:46:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1656
+2024.09.29 17:46:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:56 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:46:56 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:46:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:46:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:02 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:47:17 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 17:47:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:47:17 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 17:47:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:19 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:47:19 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:47:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:47:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+2024.09.29 17:47:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:47:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1898
+2024.09.29 17:47:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:36 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:47:36 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 17:47:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:36 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:47:36 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 17:47:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:47:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:02 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:02 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:48:02 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in (List[tetris.logic.Point], tetris.logic.CellType)RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 251, 251, 272)
+2024.09.29 17:48:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:08 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:08 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:48:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:17 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:48:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:17 INFO  time: compiled OOFP-Tetris-2024 in 92ms
+2024.09.29 17:48:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:17 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 17:48:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:29 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:29 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 17:48:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:48:31 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:31 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:37 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 17:48:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:37 WARN  Using indexes to guess the definition of List
+Sep 29, 2024 5:48:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_17-48-39-497.md
+2024.09.29 17:48:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:48:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:06 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:06 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:06 INFO  time: compiled OOFP-Tetris-2024 in 94ms
+2024.09.29 17:49:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:10 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:10 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:10 INFO  time: compiled OOFP-Tetris-2024 in 89ms
+2024.09.29 17:49:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:11 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:10 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:10 INFO  time: compiled OOFP-Tetris-2024 in 69ms
+2024.09.29 17:49:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:18 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:18 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 17:49:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:23 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:23 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:23 INFO  time: compiled OOFP-Tetris-2024 in 87ms
+2024.09.29 17:49:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:30 ERROR /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.09.29 17:49:30 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:49:30 INFO  time: compiled OOFP-Tetris-2024 in 90ms
+2024.09.29 17:49:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:53 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:49:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:19 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:50:19 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:50:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:23 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:50:23 INFO  time: compiled OOFP-Tetris-2024 in 95ms
+2024.09.29 17:50:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:53 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:50:56 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:50:56 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 17:50:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:51:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2850
+2024.09.29 17:51:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:51:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2894
+2024.09.29 17:51:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:51:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2906
+2024.09.29 17:51:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:56 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:51:56 INFO  time: compiled OOFP-Tetris-2024 in 92ms
+2024.09.29 17:51:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:51:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:02 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:19 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:52:19 INFO  time: compiled OOFP-Tetris-2024 in 98ms
+2024.09.29 17:52:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:21 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:52:21 INFO  time: compiled OOFP-Tetris-2024 in 99ms
+2024.09.29 17:52:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:24 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:52:24 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 17:52:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:52:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:52:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:52:39 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:52:39 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 17:52:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:52:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:52 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:52:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:53:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3407
+2024.09.29 17:53:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:08 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:53:08 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 17:53:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:09 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:53:09 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 17:53:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:21 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:53:21 INFO  time: compiled OOFP-Tetris-2024 in 93ms
+2024.09.29 17:53:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:27 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:31 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:40 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 5:53:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3671
+2024.09.29 17:53:40 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:40 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:47 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:48 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:49 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:53:49 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 17:53:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:50 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:53:50 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 17:53:51 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:54 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:53:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:00 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+Sep 29, 2024 5:54:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3863
+2024.09.29 17:54:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:54:18 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 17:54:19 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:22 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:54:22 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 17:54:22 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:23 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:24 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:54:24 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 17:54:24 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/Tetronimo.scala
+2024.09.29 17:54:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:28 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:28 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:54:28 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 17:54:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:36 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:37 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:38 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:39 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:54:39 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 17:54:42 INFO  time: compiled OOFP-Tetris-2024 in 2.51s
+2024.09.29 17:57:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:57:56 INFO  time: compiled OOFP-Tetris-2024 in 0.24s
+2024.09.29 17:58:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:58:21 INFO  time: compiled OOFP-Tetris-2024 in 0.25s
+Sep 29, 2024 5:58:26 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 671, count -1, length 1450
+2024.09.29 17:58:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:58:35 INFO  time: compiled OOFP-Tetris-2024 in 1.82s
+2024.09.29 17:58:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:58:37 INFO  time: compiled OOFP-Tetris-2024 in 0.83s
+Sep 29, 2024 5:58:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4431
+2024.09.29 17:59:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:59:02 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 17:59:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:59:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:59:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:59:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:59:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 17:59:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 17:59:08 INFO  time: compiled OOFP-Tetris-2024 in 1.36s
+Sep 29, 2024 5:59:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

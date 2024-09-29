@@ -6,20 +6,22 @@ import com.lowagie.text.Cell
 
 class GameState(val randomGen : RandomGenerator,
                 val board : Map[(Int,Int), CellType]){
-    val allPieces : Map[Int, Tetronimo] = Map(
-        0 -> IPiece(),  
-        1 -> OPiece(),  
-        2 -> TPiece(),  
-        3 -> SPiece(),  
-        4 -> ZPiece(),  
-        5 -> JPiece(),  
-        6 -> LPiece()
-    )
-    val piece : Tetronimo = allPieces(randomGen.randomInt(7))
-    val piecePosition : List[Point] = piece.structure.map(p => Point(p.x, p.y + 3))
+    val allPieces : Map[Int,(List[Point],CellType)] = Map(
+        0 -> (List(Point(-1,0),Point(0,0),Point(1,0),Point(2,0)),ICell),
+        1 -> (List(Point(-1,1),Point(-1,0),Point(1,0)),JCell),
+        2 -> (List(Point(-1,0),Point(1,0),Point(1,1)),LCell),
+        3 -> (List(Point(-1,1),Point(-1,0),Point(0,0),Point(0,1)),OCell),
+        4 -> (List(Point(-1,0),Point(0,1),Point(1,1)),SCell),
+        5 -> (List(Point(-1,0),Point(0,1),Point(1,0)),TCell),
+        6 -> (List(Point(-1,1),Point(0,1),Point(1,0)),ZCell)
+
+    )                        
+    val pieceIndex : Int = randomGen.randomInt(7)
+    val piece : Tetronimo = new Tetronimo(allPieces(pieceIndex)._1, allPieces(pieceIndex)._2)
+   // val piecePosition : List[Point] = piece.structure.map(p => Point(p.x, p.y + 3))
     //println(piecePosition)
     def pointInPiece(p : Point) : Boolean = {
-        for(i <- piecePosition){
+        for(i <- piece.struct){
             if(i.sameAs(p)){
                 return true
             }
@@ -31,7 +33,7 @@ class GameState(val randomGen : RandomGenerator,
         case (key, value) =>
             if(pointInPiece(Point(key._1, key._2))){
                 //println(piece.cell)
-                key -> piece.cell
+                key -> piece.blockType
             }else{
                 key -> Empty
             }
