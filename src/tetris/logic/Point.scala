@@ -9,7 +9,4 @@ case class Point(x : Int, y : Int) {
         }
         else return false
     }
-    def toTuple() : (Int,Int) = {
-        (x,y)
-    }
 }

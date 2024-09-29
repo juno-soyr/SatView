@@ -2385,3 +2385,1044 @@ WARNING: Unmatched cancel notification for request id 4431
 2024.09.29 17:59:08 INFO  time: compiled OOFP-Tetris-2024 in 1.36s
 Sep 29, 2024 5:59:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.09.29 18:01:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:17 INFO  time: compiled OOFP-Tetris-2024 in 1.13s
+2024.09.29 18:01:26 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:26 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:01:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:34 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:01:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+Sep 29, 2024 6:01:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4837
+2024.09.29 18:01:36 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 18:01:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:38 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:01:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:40 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:01:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:50 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 18:01:52 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:01:52 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+Sep 29, 2024 6:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4931
+Sep 29, 2024 6:02:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4948
+2024.09.29 18:02:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:02:11 INFO  time: compiled OOFP-Tetris-2024 in 1.04s
+2024.09.29 18:02:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:02:18 INFO  time: compiled OOFP-Tetris-2024 in 1.04s
+2024.09.29 18:02:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:02:20 INFO  time: compiled OOFP-Tetris-2024 in 0.99s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 242)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 235)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 236)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 237)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 238)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[tetris.logic.Point]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 228, 228, 239)
+2024.09.29 18:07:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:07:45 INFO  time: compiled OOFP-Tetris-2024 in 1.12s
+2024.09.29 18:07:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:07:45 INFO  time: compiled OOFP-Tetris-2024 in 0.29s
+2024.09.29 18:07:48 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:07:50 INFO  time: compiled OOFP-Tetris-2024 in 1.53s
+2024.09.29 18:07:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:07:50 INFO  time: compiled OOFP-Tetris-2024 in 0.59s
+2024.09.29 18:07:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:07:51 INFO  time: compiled OOFP-Tetris-2024 in 0.48s
+Sep 29, 2024 6:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5177
+2024.09.29 18:08:11 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:08:11 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 18:08:12 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:08:12 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:08:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:08:19 INFO  time: compiled OOFP-Tetris-2024 in 1.16s
+2024.09.29 18:08:19 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:08:19 INFO  time: compiled OOFP-Tetris-2024 in 0.46s
+Sep 29, 2024 6:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5324
+Sep 29, 2024 6:08:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5374
+2024.09.29 18:08:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:08:59 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:09:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:09:02 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+Sep 29, 2024 6:09:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5551
+2024.09.29 18:09:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:09:35 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:09:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:09:39 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:09:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:09:57 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:10:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:13 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:10:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:20 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:10:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:30 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 18:10:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:32 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:10:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:36 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:10:42 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:42 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:10:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:47 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:10:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:10:48 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:11:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:11:03 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:11:05 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:11:05 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+Sep 29, 2024 6:11:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5788
+Sep 29, 2024 6:11:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5797
+Sep 29, 2024 6:12:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6000
+2024.09.29 18:12:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:12:47 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:12:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:12:49 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:12:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:12:57 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:13:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:03 INFO  time: compiled OOFP-Tetris-2024 in 1.12s
+Sep 29, 2024 6:13:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6164
+2024.09.29 18:13:08 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:08 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 18:13:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:09 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:13:12 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:12 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1653, 1653, 1667)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1653, 1653, 1660)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1653, 1653, 1661)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1653, 1653, 1662)
+Sep 29, 2024 6:13:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6260
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[tetris.logic.Point]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1653, 1653, 1664)
+2024.09.29 18:13:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:35 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:13:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:39 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+Sep 29, 2024 6:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6323
+2024.09.29 18:13:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:56 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:13:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:13:56 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:14:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:14:31 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:14:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:14:32 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:14:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:14:37 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.09.29 18:24:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:24:39 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:24:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:24:44 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+Sep 29, 2024 6:24:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6727
+2024.09.29 18:24:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:24:56 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:25:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:02 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 18:25:08 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:08 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:25:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:10 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:25:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:17 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+Sep 29, 2024 6:25:19 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1017, count -1, length 1749
+2024.09.29 18:25:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:22 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:25:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:28 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:25:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:31 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:25:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:45 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+Sep 29, 2024 6:25:48 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:25:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-25-48-397.md
+Sep 29, 2024 6:25:48 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:25:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-25-49-075.md
+2024.09.29 18:25:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+Sep 29, 2024 6:25:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:25:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-25-50-317.md
+2024.09.29 18:25:50 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:25:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:53 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:25:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:58 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 18:25:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:25:59 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:26:04 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:04 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:26:04 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:05 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:26:07 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:07 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:26:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:35 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:26:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:35 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:26:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:50 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:26:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:51 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:26:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:56 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 18:26:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:57 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:26:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:26:59 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:27:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:17 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:27:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:18 WARN  Using indexes to guess the definition of CellType
+2024.09.29 18:27:18 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:27:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:22 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:27:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:28 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:27:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:32 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:27:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:37 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:27:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:45 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:27:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:46 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+Sep 29, 2024 6:27:50 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1065, count -1, length 1785
+2024.09.29 18:27:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:27:51 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:28:07 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:07 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:28:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:09 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+Sep 29, 2024 6:28:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:28:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-28-25-811.md
+2024.09.29 18:28:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:32 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:28:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:36 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:28:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:37 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:28:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:49 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:28:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:28:51 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:29:04 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:04 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:29:12 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:12 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:29:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:17 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:29:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:18 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 18:29:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:20 INFO  time: compiled OOFP-Tetris-2024 in 0.44s
+2024.09.29 18:29:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:20 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+Sep 29, 2024 6:29:31 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1065, count -1, length 1828
+Sep 29, 2024 6:29:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7646
+2024.09.29 18:29:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:40 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:29:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:29:45 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:30:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:00 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:30:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:01 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:30:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:09 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:30:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:10 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+Sep 29, 2024 6:30:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:30:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-30-13-251.md
+2024.09.29 18:30:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:24 INFO  time: compiled OOFP-Tetris-2024 in 1.18s
+2024.09.29 18:30:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:24 INFO  time: compiled OOFP-Tetris-2024 in 0.36s
+2024.09.29 18:30:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:36 INFO  time: compiled OOFP-Tetris-2024 in 1.08s
+2024.09.29 18:30:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:38 INFO  time: compiled OOFP-Tetris-2024 in 1.03s
+2024.09.29 18:30:42 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:42 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:30:48 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:30:49 INFO  time: compiled OOFP-Tetris-2024 in 1.13s
+2024.09.29 18:40:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:40:51 INFO  time: compiled OOFP-Tetris-2024 in 1.02s
+2024.09.29 18:40:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:40:58 INFO  time: compiled OOFP-Tetris-2024 in 1.03s
+2024.09.29 18:40:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:40:58 INFO  time: compiled OOFP-Tetris-2024 in 0.35s
+2024.09.29 18:41:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:41:23 INFO  time: compiled OOFP-Tetris-2024 in 1.02s
+2024.09.29 18:41:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:41:28 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:42:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:00 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:42:08 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:08 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:42:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:09 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:42:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:09 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:42:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:13 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:42:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:23 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1060, 1060, 1074)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1060, 1060, 1067)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1060, 1060, 1068)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1060, 1060, 1069)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[tetris.logic.Point]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1060, 1060, 1071)
+2024.09.29 18:42:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:31 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:42:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:31 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:42:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:34 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 18:42:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:42:36 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 18:44:19 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:19 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:44:30 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:30 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:44:32 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:32 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:44:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:33 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:44:56 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:56 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:44:57 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:44:57 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:45:12 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:12 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:45:28 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:28 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:45:29 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:29 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:45:32 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:32 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:45:35 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:35 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:45:38 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:38 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:45:53 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:45:53 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:46:04 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:04 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:46:08 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:08 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:46:12 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:12 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 18:46:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:18 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:46:22 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:22 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:46:22 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:22 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:46:27 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:27 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:46:30 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:30 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:46:34 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:34 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+Sep 29, 2024 6:46:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9205
+2024.09.29 18:46:47 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:47 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:46:49 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:49 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 18:46:50 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:50 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:46:51 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:51 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:46:54 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:46:54 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:48:09 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:48:09 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:48:12 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:48:12 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 18:48:16 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 18:48:16 INFO  time: compiled OOFP-Tetris-2024 in 0.54s
+2024.09.29 18:48:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:48:17 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:48:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:48:17 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:48:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:48:34 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:48:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:48:58 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:49:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:09 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 18:49:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:15 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 18:49:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:18 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:49:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:24 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 18:49:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:33 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:49:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:44 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:49:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:45 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 18:49:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:53 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:49:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:49:55 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:50:16 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:50:16 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+Sep 29, 2024 6:50:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:50:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-50-18-358.md
+Sep 29, 2024 6:50:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:50:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-50-25-290.md
+Sep 29, 2024 6:50:26 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:50:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-50-26-246.md
+Sep 29, 2024 6:50:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 6:50:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_18-50-27-071.md
+2024.09.29 18:51:07 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:51:07 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 18:51:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:51:14 INFO  time: compiled OOFP-Tetris-2024 in 1.07s
+2024.09.29 18:51:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:51:19 INFO  time: compiled OOFP-Tetris-2024 in 1.05s
+2024.09.29 18:52:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:52:10 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 18:52:26 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:52:27 INFO  time: compiled OOFP-Tetris-2024 in 1.09s
+Sep 29, 2024 6:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9989
+2024.09.29 18:52:42 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:52:42 INFO  time: compiled OOFP-Tetris-2024 in 0.96s
+2024.09.29 18:52:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:52:43 INFO  time: compiled OOFP-Tetris-2024 in 0.4s
+2024.09.29 18:52:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:52:56 INFO  time: compiled OOFP-Tetris-2024 in 1.01s
+2024.09.29 18:53:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:53:02 INFO  time: compiled OOFP-Tetris-2024 in 0.99s
+2024.09.29 18:53:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:53:10 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 18:53:12 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:53:13 INFO  time: compiled OOFP-Tetris-2024 in 1.44s
+2024.09.29 18:53:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:21 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 18:53:20 INFO  time: compiled OOFP-Tetris-2024 in 0.99s
+2024.09.29 18:53:26 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 18:53:27 INFO  time: compiled OOFP-Tetris-2024 in 1.06s
+2024.09.29 19:09:41 INFO  Shutting down server
+2024.09.29 19:09:41 INFO  shutting down Metals
+2024.09.29 19:09:41 INFO  Shut down connection with build server.
+2024.09.29 19:09:41 INFO  Exiting server
+2024.09.29 19:11:59 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@8442b2d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@180c292e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@8442b2d]
+2024.09.29 19:12:02 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.29 19:12:03 INFO  Attempting to connect to the build server...
+2024.09.29 19:12:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.09.29 19:12:05 INFO  time: Connected to build server in 1.43s
+2024.09.29 19:12:05 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.29 19:12:05 INFO  time: Imported build in 0.31s
+2024.09.29 19:12:06 INFO  running doctor check
+2024.09.29 19:12:06 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+Sep 29, 2024 7:12:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.09.29 19:12:12 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.29 19:12:14 INFO  time: indexed workspace in 8.8s
+2024.09.29 19:12:14 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala
+2024.09.29 19:12:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala
+2024.09.29 19:12:15 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.09.29 19:12:19 WARN  javac exited with exit code 1
+2024.09.29 19:12:19 INFO  time: compiled OOFP-Tetris-2024-test in 3.7s
+2024.09.29 19:12:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:19 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.09.29 19:12:23 WARN  javac exited with exit code 1
+2024.09.29 19:12:23 INFO  time: compiled OOFP-Tetris-2024-test in 3.83s
+2024.09.29 19:12:23 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.09.29 19:12:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:26 WARN  javac exited with exit code 1
+2024.09.29 19:12:26 INFO  time: compiled OOFP-Tetris-2024-test in 3.08s
+2024.09.29 19:12:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:12:32 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:13:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:33 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:13:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:34 INFO  time: compiled OOFP-Tetris-2024 in 0.24s
+2024.09.29 19:13:36 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:13:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:41 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:13:42 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:13:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:47 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 19:13:48 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Sep 29, 2024 7:13:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:13:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.09.29 19:13:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:56 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:13:56 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:13:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:13:57 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+Sep 29, 2024 7:13:58 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:14:01 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:14:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.09.29 19:14:14 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:14 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:14:15 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:20 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:14:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Sep 29, 2024 7:14:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 191
+2024.09.29 19:14:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:20 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:14:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:28 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:14:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:32 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:14:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:37 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 19:14:38 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:37 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+Sep 29, 2024 7:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+2024.09.29 19:14:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:14:46 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:14:47 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:14:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.09.29 19:15:11 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:15:11 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:15:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:15:17 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:15:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:15:17 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+2024.09.29 19:15:27 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:15:27 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 19:15:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:15:36 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+Sep 29, 2024 7:15:49 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:15:55 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:15:57 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:15:59 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.09.29 19:16:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:10 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.09.29 19:16:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:10 INFO  time: compiled OOFP-Tetris-2024 in 85ms
+2024.09.29 19:16:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:10 INFO  time: compiled OOFP-Tetris-2024 in 0.53s
+2024.09.29 19:16:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:10 INFO  time: compiled OOFP-Tetris-2024 in 0.11s
+2024.09.29 19:16:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:15 INFO  time: compiled OOFP-Tetris-2024 in 1.78s
+2024.09.29 19:16:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:16:15 INFO  time: compiled OOFP-Tetris-2024 in 99ms
+2024.09.29 19:16:30 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:16:30 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 19:16:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:16:33 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 19:16:38 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:16:38 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:16:42 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:16:42 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:16:46 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:16:46 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:17:14 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:17:14 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:17:16 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:17:16 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+Sep 29, 2024 7:17:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 932
+2024.09.29 19:17:22 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:17:22 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:17:25 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:17:25 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:29:27 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:29:27 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+Sep 29, 2024 7:29:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1056
+Sep 29, 2024 7:29:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1085
+2024.09.29 19:29:51 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:29:51 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:29:52 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:29:52 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 19:30:07 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:07 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:30:14 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:14 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:30:23 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:23 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:30:32 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:32 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:30:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:33 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:30:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:30:33 INFO  time: compiled OOFP-Tetris-2024 in 0.1s
+Sep 29, 2024 7:31:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1326
+Sep 29, 2024 7:31:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1361
+2024.09.29 19:31:27 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:31:27 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 19:31:28 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:31:28 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:31:37 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:31:37 WARN  Using indexes to guess the definition of board
+2024.09.29 19:31:37 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:31:44 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:31:44 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+Sep 29, 2024 7:31:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1486
+2024.09.29 19:32:08 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:08 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 19:32:16 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:16 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:32:31 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:31 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:32:37 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:37 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 19:32:40 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:40 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:32:57 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:57 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:32:58 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:32:58 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+Sep 29, 2024 7:33:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1819
+2024.09.29 19:33:10 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:10 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:33:11 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:11 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+Sep 29, 2024 7:33:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1845
+2024.09.29 19:33:14 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:14 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:33:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:17 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:33:26 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:26 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:33:28 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:28 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:33:33 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:33 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:33:34 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:34 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 19:33:46 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:46 INFO  time: compiled OOFP-Tetris-2024 in 0.25s
+2024.09.29 19:33:47 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:33:47 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 19:34:02 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:02 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:34:03 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:03 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+Sep 29, 2024 7:34:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2027
+2024.09.29 19:34:20 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:20 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:34:23 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:23 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 19:34:28 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:28 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:34:31 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:31 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+Sep 29, 2024 7:34:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2137
+2024.09.29 19:34:41 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:41 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:34:43 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:43 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.09.29 19:34:43 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:43 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:34:52 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:52 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:34:53 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:53 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:34:55 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:55 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.09.29 19:34:56 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:34:56 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 19:35:05 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:05 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.09.29 19:35:05 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:06 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:35:06 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:06 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:35:06 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:06 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:35:06 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:06 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.09.29 19:35:17 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:17 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:35:18 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:18 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:35:27 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:35:28 INFO  time: compiled OOFP-Tetris-2024 in 1.45s
+2024.09.29 19:36:04 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:36:05 INFO  time: compiled OOFP-Tetris-2024 in 1.19s
+2024.09.29 19:36:08 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:36:08 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:36:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:36:13 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:36:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:36:22 INFO  time: compiled OOFP-Tetris-2024 in 1.14s
+2024.09.29 19:37:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:37:46 INFO  time: compiled OOFP-Tetris-2024 in 0.98s
+2024.09.29 19:38:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:38:18 INFO  time: compiled OOFP-Tetris-2024 in 0.24s
+2024.09.29 19:38:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:38:34 INFO  time: compiled OOFP-Tetris-2024 in 1.48s
+Sep 29, 2024 7:38:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2627
+Sep 29, 2024 7:38:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2657
+2024.09.29 19:38:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:38:44 INFO  time: compiled OOFP-Tetris-2024 in 1.14s
+2024.09.29 19:38:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:38:45 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:38:54 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:38:56 INFO  time: compiled OOFP-Tetris-2024 in 2.31s
+Sep 29, 2024 7:39:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2835
+2024.09.29 19:39:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:39:42 INFO  time: compiled OOFP-Tetris-2024 in 1.19s
+2024.09.29 19:39:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:39:57 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:40:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:40:03 INFO  time: compiled OOFP-Tetris-2024 in 1.14s
+Sep 29, 2024 7:40:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2951
+2024.09.29 19:40:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:40:11 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.09.29 19:40:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:40:41 INFO  time: compiled OOFP-Tetris-2024 in 1.23s
+2024.09.29 19:41:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:41:47 INFO  time: compiled OOFP-Tetris-2024 in 1.22s
+2024.09.29 19:41:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:41:58 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:41:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 19:41:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 19:41:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:41:59 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:41:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 19:42:01 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 19:42:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:42:02 INFO  time: compiled OOFP-Tetris-2024 in 1.07s
+2024.09.29 19:42:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:42:14 INFO  time: compiled OOFP-Tetris-2024 in 1.04s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in List[<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1672, 1672, 2118)
+2024.09.29 19:50:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:50:40 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.09.29 19:50:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:50:40 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:50:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:50:45 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 19:50:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:50:56 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:50:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:51:00 INFO  time: compiled OOFP-Tetris-2024 in 1.51s
+2024.09.29 19:51:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:51:00 INFO  time: compiled OOFP-Tetris-2024 in 92ms
+2024.09.29 19:51:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:51:00 INFO  time: compiled OOFP-Tetris-2024 in 0.44s
+2024.09.29 19:51:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:51:00 INFO  time: compiled OOFP-Tetris-2024 in 92ms
+Sep 29, 2024 7:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3483
+Sep 29, 2024 7:52:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3498
+2024.09.29 19:52:51 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:52:51 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+Sep 29, 2024 7:55:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3575
+2024.09.29 19:55:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:13 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+Sep 29, 2024 7:55:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:55:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_19-55-15-244.md
+Sep 29, 2024 7:55:15 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:55:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_19-55-15-995.md
+Sep 29, 2024 7:55:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 29, 2024 7:55:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_19-55-18-740.md
+Sep 29, 2024 7:55:27 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.09.29 19:55:27 INFO  compiling oofp-tetris-2024 (1 scala source)
+Sep 29, 2024 7:55:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024)_19-55-27-312.md
+2024.09.29 19:55:27 INFO  time: compiled OOFP-Tetris-2024 in 0.93s
+2024.09.29 19:55:27 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:27 INFO  time: compiled OOFP-Tetris-2024 in 65ms
+2024.09.29 19:55:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:28 INFO  time: compiled OOFP-Tetris-2024 in 0.38s
+2024.09.29 19:55:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:28 INFO  time: compiled OOFP-Tetris-2024 in 86ms
+2024.09.29 19:55:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:28 INFO  time: compiled OOFP-Tetris-2024 in 0.45s
+2024.09.29 19:55:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:29 INFO  time: compiled OOFP-Tetris-2024 in 88ms
+2024.09.29 19:55:29 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:29 INFO  time: compiled OOFP-Tetris-2024 in 0.38s
+2024.09.29 19:55:29 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:55:29 INFO  time: compiled OOFP-Tetris-2024 in 76ms
+2024.09.29 19:56:01 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:56:01 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:56:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:06 INFO  time: compiled OOFP-Tetris-2024 in 0.99s
+2024.09.29 19:56:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:07 INFO  time: compiled OOFP-Tetris-2024 in 91ms
+2024.09.29 19:56:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:22 INFO  time: compiled OOFP-Tetris-2024 in 1.01s
+2024.09.29 19:56:22 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:22 INFO  time: compiled OOFP-Tetris-2024 in 72ms
+2024.09.29 19:56:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:25 INFO  time: compiled OOFP-Tetris-2024 in 1.19s
+2024.09.29 19:56:25 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:56:25 INFO  time: compiled OOFP-Tetris-2024 in 77ms
+2024.09.29 19:57:05 INFO  compiling oofp-tetris-2024 (2 scala sources)
+2024.09.29 19:57:06 INFO  time: compiled OOFP-Tetris-2024 in 1.16s
+Sep 29, 2024 7:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3878
+2024.09.29 19:57:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:57:17 INFO  time: compiled OOFP-Tetris-2024 in 0.18s
+2024.09.29 19:57:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:57:43 INFO  time: compiled OOFP-Tetris-2024 in 0.15s
+2024.09.29 19:57:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:57:45 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:57:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:57:46 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.09.29 19:57:48 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:57:48 INFO  time: compiled OOFP-Tetris-2024 in 0.91s
+2024.09.29 19:59:42 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:59:42 INFO  time: compiled OOFP-Tetris-2024 in 0.17s
+2024.09.29 19:59:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:42 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:59:42 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:59:43 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:59:45 INFO  time: compiled OOFP-Tetris-2024 in 0.51s
+2024.09.29 19:59:46 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Sep 29, 2024 7:59:55 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1489, count -1, length 2089
+2024.09.29 19:59:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 19:59:57 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.09.29 19:59:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:58 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 19:59:59 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 20:00:06 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 20:00:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.09.29 20:00:07 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:00:07 INFO  time: compiled OOFP-Tetris-2024 in 0.95s
+2024.09.29 20:00:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:00:41 INFO  time: compiled OOFP-Tetris-2024 in 0.98s
+2024.09.29 20:05:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:05:50 INFO  time: compiled OOFP-Tetris-2024 in 1.3s
+2024.09.29 20:09:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:09:29 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.09.29 20:09:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:09:35 INFO  time: compiled OOFP-Tetris-2024 in 1.13s
+2024.09.29 20:10:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:10:14 INFO  time: compiled OOFP-Tetris-2024 in 1.52s
+2024.09.29 20:10:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:10:48 INFO  time: compiled OOFP-Tetris-2024 in 1.05s
+2024.09.29 20:10:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:10:56 INFO  time: compiled OOFP-Tetris-2024 in 1.07s
+2024.09.29 20:11:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+Sep 29, 2024 8:11:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4487
+Sep 29, 2024 8:11:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-09-29/r_compiler-error_(OOFP-Tetris-2024-test)_20-11-44-683.md
+2024.09.29 20:11:45 INFO  time: compiled OOFP-Tetris-2024 in 1.2s
+2024.09.29 20:11:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:11:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 20:11:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala
+2024.09.29 20:11:58 WARN  Using indexes to guess the definition of Unit
+2024.09.29 20:11:58 INFO  time: compiled OOFP-Tetris-2024 in 1.29s
+2024.09.29 20:12:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:12:03 INFO  time: compiled OOFP-Tetris-2024 in 1.38s
+Sep 29, 2024 8:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4642
+2024.09.29 20:13:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.09.29 20:13:19 INFO  time: compiled OOFP-Tetris-2024 in 1.23s
