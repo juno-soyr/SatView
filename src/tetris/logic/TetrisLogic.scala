@@ -20,29 +20,30 @@ class TetrisLogic(val randomGen: RandomGenerator,
   def this() =
     this(new ScalaRandomGen(), DefaultDims, makeEmptyBoard(DefaultDims))
 
-z
   val initialBoardMap: Map[Point, CellType] =  (
     for {
       x <- 0 until gridDims.width
       y <- 0 until gridDims.height
     } yield Point(x,y) -> Empty
   ).toMap
-  var currGameState : GameState = new GameState(gridDims, randomGen, new NormalTetronimo(0, List()),(0,0),initialBoardMap).newPiecePlacement()
+  var currGameState : GameState = new GameState(gridDims, randomGen, new NormalTetronimo(0, List(), Empty),(0,0),initialBoardMap).newPiecePlacement()
   // TODO implement me
   def rotateLeft(): Unit = {
-    //println("Rotated Left")
     currGameState = currGameState.rotatePieceLeft()
   }
-  def rotateRight(): Unit = ()
-
-  // TODO implement me
-  def moveLeft(): Unit = ()
-
-  // TODO implement me
-  def moveRight(): Unit = ()
+  def rotateRight(): Unit = {
+    currGameState = currGameState.rotatePieceRight()
+  }
+  def moveLeft(): Unit = {
+    currGameState = currGameState.moveLeft()
+  }
+  def moveRight(): Unit = {
+    currGameState = currGameState.moveRight()
+  }
 
   // TODO implement me
   def moveDown(): Unit = {
+    currGameState = currGameState.moveDown()
   }
 
   // TODO implement me
