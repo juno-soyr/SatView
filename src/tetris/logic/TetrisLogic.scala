@@ -3,6 +3,7 @@ package tetris.logic
 import engine.random.{RandomGenerator, ScalaRandomGen}
 import tetris.logic.TetrisLogic._
 import com.lowagie.text.Cell
+import java.text.Normalizer
 
 /** To implement Tetris, complete the ``TODOs`` below.
  *
@@ -19,19 +20,19 @@ class TetrisLogic(val randomGen: RandomGenerator,
   def this() =
     this(new ScalaRandomGen(), DefaultDims, makeEmptyBoard(DefaultDims))
 
-
+z
   val initialBoardMap: Map[Point, CellType] =  (
     for {
       x <- 0 until gridDims.width
       y <- 0 until gridDims.height
     } yield Point(x,y) -> Empty
   ).toMap
-  var currGameState : GameState = new GameState(randomGen, initialBoardMap).newPiecePlacement()
-  println(currGameState.board)
+  var currGameState : GameState = new GameState(gridDims, randomGen, new NormalTetronimo(0, List()),(0,0),initialBoardMap).newPiecePlacement()
   // TODO implement me
-  def rotateLeft(): Unit = ()
-
-  // TODO implement me
+  def rotateLeft(): Unit = {
+    //println("Rotated Left")
+    currGameState = currGameState.rotatePieceLeft()
+  }
   def rotateRight(): Unit = ()
 
   // TODO implement me
@@ -52,7 +53,11 @@ class TetrisLogic(val randomGen: RandomGenerator,
 
   // TODO implement me
   def getCellType(p : Point): CellType = {
-    currGameState.board(p)
+    if(currGameState.pointInPiece(currGameState.currPieceAbsPos, p)){
+      currGameState.piece.blockType
+    }else{
+      currGameState.board(p)
+    }
   }
 }
 
