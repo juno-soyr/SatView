@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.028s</div>
+<div class="counter">0.040s</div>
 <p>duration</p>
 </div>
 </td>
@@ -84,49 +84,49 @@ Empty lines are added to the top to ensure the game has the correct height.
 This is what went wrong:
 
 step=0, rand=4, actions=&lt;&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .SS  | .SS  
 SS.  | SS.  
 ...  | ...  
 ...  | ...  
-ZZ.  | ...  
+ZZ.  | ZZ.  
 
 step=1, rand=4, actions=&lt;RotateRight&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .S.  | .S.  
 .SS  | .SS  
 ..S  | ..S  
 ...  | ...  
-ZZ.  | ...  
+ZZ.  | ZZ.  
 
 step=2, rand=4, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 ...  | ...  
 .S.  | .S.  
 .SS  | .SS  
 ..S  | ..S  
-ZZ.  | ...  
+ZZ.  | ZZ.  
 
 step=3, rand=4, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 ...  | ...  
 ...  | ...  
 .S.  | .S.  
 .SS  | .SS  
-ZZS  | ..S  
+ZZS  | ZZS  
 
 step=4, rand=4, actions=&lt;Down&gt;
 Want | Got ✗
 ------------
-.SS  | ...  
-SS.  | ...  
-...  | ...  
-.S.  | .S.  
 .SS  | .SS  
+SS.  | SS.  
+...  | .S.  
+.S.  | .SS  
+.SS  | ZZS  
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -228,121 +228,121 @@ Empty lines are added to the top to ensure the game has the correct height.
 This is what went wrong:
 
 step=0, rand=0, actions=&lt;&gt;
+Want | Got ✓
+------------
+.... | .... 
+IIII | IIII 
+.... | .... 
+.... | .... 
+.Z.. | .Z.. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=1, rand=0, actions=&lt;RotateRight&gt;
+Want | Got ✓
+------------
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+.Z.. | .Z.. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=2, rand=0, actions=&lt;Right&gt;
+Want | Got ✓
+------------
+...I | ...I 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+.Z.. | .Z.. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=3, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+.Z.I | .Z.I 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=4, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+...I | ...I 
+...I | ...I 
+.Z.I | .Z.I 
+.Z.I | .Z.I 
+ZZZ. | ZZZ. 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=5, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+...I | ...I 
+.Z.I | .Z.I 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+ZZ.. | ZZ.. 
+Z.Z. | Z.Z. 
+
+step=6, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+.... | .... 
+.Z.I | .Z.I 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+ZZ.I | ZZ.I 
+Z.Z. | Z.Z. 
+
+step=7, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+.... | .... 
+.Z.. | .Z.. 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+ZZ.I | ZZ.I 
+Z.ZI | Z.ZI 
+
+step=8, rand=0, actions=&lt;Down&gt;
 Want | Got ✗
 ------------
 .... | .... 
 IIII | IIII 
 .... | .... 
 .... | .... 
-.Z.. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=1, rand=0, actions=&lt;RotateRight&gt;
-Want | Got ✗
-------------
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-.Z.. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=2, rand=0, actions=&lt;Right&gt;
-Want | Got ✗
-------------
-...I | ...I 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-.Z.. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=3, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-.Z.I | ...I 
-.Z.. | .... 
-ZZZ. | .... 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=4, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-...I | ...I 
-...I | ...I 
-.Z.I | ...I 
-.Z.I | ...I 
-ZZZ. | .... 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=5, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-...I | ...I 
-.Z.I | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-ZZ.. | .... 
-Z.Z. | .... 
-
-step=6, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-.Z.I | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-ZZ.I | ...I 
-Z.Z. | .... 
-
-step=7, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-.Z.. | .... 
-.Z.I | ...I 
-ZZZI | ...I 
-ZZ.I | ...I 
-Z.ZI | ...I 
-
-step=8, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-IIII | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-.Z.. | .... 
-.Z.I | ...I 
-ZZ.I | ...I 
-Z.ZI | ...I 
+.... | .Z.. 
+.Z.. | .Z.I 
+.Z.I | ZZZI 
+ZZ.I | ZZ.I 
+Z.ZI | Z.ZI 
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -444,100 +444,100 @@ Empty lines are added to the top to ensure the game has the correct height.
 This is what went wrong:
 
 step=0, rand=0, actions=&lt;&gt;
+Want | Got ✓
+------------
+.... | .... 
+IIII | IIII 
+.... | .... 
+.... | .... 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+Z.Z. | Z.Z. 
+
+step=1, rand=0, actions=&lt;RotateRight&gt;
+Want | Got ✓
+------------
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+Z.Z. | Z.Z. 
+
+step=2, rand=0, actions=&lt;Right&gt;
+Want | Got ✓
+------------
+...I | ...I 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+Z.Z. | Z.Z. 
+
+step=3, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+Z.Z. | Z.Z. 
+
+step=4, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+...I | ...I 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZ. | ZZZ. 
+Z.Z. | Z.Z. 
+
+step=5, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+Z.Z. | Z.Z. 
+
+step=6, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+.... | .... 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+Z.ZI | Z.ZI 
+
+step=7, rand=0, actions=&lt;Down&gt;
 Want | Got ✗
 ------------
 .... | .... 
 IIII | IIII 
 .... | .... 
 .... | .... 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-Z.Z. | .... 
-
-step=1, rand=0, actions=&lt;RotateRight&gt;
-Want | Got ✗
-------------
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-Z.Z. | .... 
-
-step=2, rand=0, actions=&lt;Right&gt;
-Want | Got ✗
-------------
-...I | ...I 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-Z.Z. | .... 
-
-step=3, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-ZZZI | ...I 
-.Z.. | .... 
-ZZZ. | .... 
-Z.Z. | .... 
-
-step=4, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-...I | ...I 
-...I | ...I 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZ. | .... 
-Z.Z. | .... 
-
-step=5, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-...I | ...I 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-Z.Z. | .... 
-
-step=6, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-Z.ZI | ...I 
-
-step=7, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-IIII | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-.... | ...I 
-.Z.I | ...I 
-Z.ZI | ...I 
+.... | ZZZI 
+.... | .Z.I 
+.Z.I | ZZZI 
+Z.ZI | Z.ZI 
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -639,100 +639,100 @@ Empty lines are added to the top to ensure the game has the correct height.
 This is what went wrong:
 
 step=0, rand=0, actions=&lt;&gt;
+Want | Got ✓
+------------
+.... | .... 
+IIII | IIII 
+.... | .... 
+.... | .... 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZZ. | ZZZ. 
+
+step=1, rand=0, actions=&lt;RotateRight&gt;
+Want | Got ✓
+------------
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+..I. | ..I. 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZZ. | ZZZ. 
+
+step=2, rand=0, actions=&lt;Right&gt;
+Want | Got ✓
+------------
+...I | ...I 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+ZZZ. | ZZZ. 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZZ. | ZZZ. 
+
+step=3, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+...I | ...I 
+...I | ...I 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.. | .Z.. 
+ZZZ. | ZZZ. 
+ZZZ. | ZZZ. 
+
+step=4, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+...I | ...I 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZ. | ZZZ. 
+ZZZ. | ZZZ. 
+
+step=5, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+...I | ...I 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+ZZZ. | ZZZ. 
+
+step=6, rand=0, actions=&lt;Down&gt;
+Want | Got ✓
+------------
+.... | .... 
+.... | .... 
+.... | .... 
+.... | .... 
+ZZZI | ZZZI 
+.Z.I | .Z.I 
+ZZZI | ZZZI 
+ZZZI | ZZZI 
+
+step=7, rand=0, actions=&lt;Down&gt;
 Want | Got ✗
 ------------
 .... | .... 
 IIII | IIII 
 .... | .... 
 .... | .... 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZZ. | .... 
-
-step=1, rand=0, actions=&lt;RotateRight&gt;
-Want | Got ✗
-------------
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-..I. | ..I. 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZZ. | .... 
-
-step=2, rand=0, actions=&lt;Right&gt;
-Want | Got ✗
-------------
-...I | ...I 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-ZZZ. | .... 
-.Z.. | .... 
-ZZZ. | .... 
-ZZZ. | .... 
-
-step=3, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-...I | ...I 
-...I | ...I 
-...I | ...I 
-ZZZI | ...I 
-.Z.. | .... 
-ZZZ. | .... 
-ZZZ. | .... 
-
-step=4, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-...I | ...I 
-...I | ...I 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZ. | .... 
-ZZZ. | .... 
-
-step=5, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-...I | ...I 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-ZZZ. | .... 
-
-step=6, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-ZZZI | ...I 
-.Z.I | ...I 
-ZZZI | ...I 
-ZZZI | ...I 
-
-step=7, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
-------------
-.... | .... 
-IIII | .... 
-.... | .... 
-.... | .... 
-.... | .... 
-.... | ...I 
-.... | ...I 
-.Z.I | ...I 
+.... | ZZZI 
+.... | .Z.I 
+.... | ZZZI 
+.Z.I | ZZZI 
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -834,108 +834,108 @@ Empty lines are added to the top to ensure the game has the correct height.
 This is what went wrong:
 
 step=0, rand=0, actions=&lt;&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 IIII | IIII 
 .... | .... 
-...O | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-.ZZZ | .... 
+...O | ...O 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=1, rand=0, actions=&lt;RotateRight&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 ..I. | ..I. 
 ..I. | ..I. 
 ..I. | ..I. 
-..IO | ..I. 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-.ZZZ | .... 
+..IO | ..IO 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=2, rand=0, actions=&lt;Left&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .I.. | .I.. 
 .I.. | .I.. 
 .I.. | .I.. 
-.I.O | .I.. 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-.ZZZ | .... 
+.I.O | .I.O 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=3, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 .I.. | .I.. 
 .I.. | .I.. 
-.I.O | .I.. 
-ZIZZ | .I.. 
-Z.ZZ | .... 
-Z.ZZ | .... 
-Z.ZZ | .... 
-.ZZZ | .... 
+.I.O | .I.O 
+ZIZZ | ZIZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=4, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 .... | .... 
 .I.. | .I.. 
-.I.O | .I.. 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-Z.ZZ | .... 
-Z.ZZ | .... 
-.ZZZ | .... 
+.I.O | .I.O 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+Z.ZZ | Z.ZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=5, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 .... | .... 
 .... | .... 
-.I.O | .I.. 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-Z.ZZ | .... 
-.ZZZ | .... 
+.I.O | .I.O 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+Z.ZZ | Z.ZZ 
+.ZZZ | .ZZZ 
 
 step=6, rand=0, actions=&lt;Down&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 .... | .... 
 .... | .... 
-...O | .... 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-ZIZZ | .I.. 
-.ZZZ | .... 
+...O | ...O 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+ZIZZ | ZIZZ 
+.ZZZ | .ZZZ 
 
 step=7, rand=0, actions=&lt;Down&gt;
 Want | Got ✗
 ------------
 .... | .... 
-IIII | .... 
+IIII | IIII 
 .... | .... 
-.... | .... 
-.... | .... 
-.... | .I.. 
-.... | .I.. 
-...O | .I.. 
-.ZZZ | .I.. 
+.... | ...O 
+.... | ZIZZ 
+.... | ZIZZ 
+.... | ZIZZ 
+...O | ZIZZ 
+.ZZZ | .ZZZ 
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -1038,17 +1038,17 @@ IIII | ....
 </thead>
 <tr>
 <td class="failures">testClear1Line</td>
-<td class="failures">0.004s</td>
+<td class="failures">0.007s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testClear1LineMiddle</td>
-<td class="failures">0.006s</td>
+<td class="failures">0.012s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">testClear2Lines</td>
-<td class="failures">0.006s</td>
+<td class="failures">0.008s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1058,7 +1058,7 @@ IIII | ....
 </tr>
 <tr>
 <td class="failures">testClear4Lines</td>
-<td class="failures">0.006s</td>
+<td class="failures">0.007s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -1067,14 +1067,19 @@ IIII | ....
 <h2>Standard output</h2>
 <span class="code">
 <pre>Rotated Right
+newPiece
 Rotated Right
 Moved Right
+newPiece
 Rotated Right
 Moved Right
+newPiece
 Rotated Right
 Moved Right
+newPiece
 Rotated Right
 Moved Left
+newPiece
 </pre>
 </span>
 </div>
@@ -1086,7 +1091,7 @@ Moved Left
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.10</a> at Oct 1, 2024, 2:22:04 AM</p>
+<a href="http://www.gradle.org">Gradle 8.10</a> at Oct 2, 2024, 4:02:32 AM</p>
 </div>
 </div>
 </body>

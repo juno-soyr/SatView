@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.038s</div>
+<div class="counter">0.039s</div>
 <p>duration</p>
 </div>
 </td>
@@ -83,214 +83,214 @@ collides with other blocks or the bottom of the board, and spawns a new tetromin
 This is what went wrong:
 
 step=0, rand=0, actions=&lt;Drop&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 .... | .... 
 IIII | IIII 
 .... | .... 
 .... | .... 
-.T.. | .... 
-TTT. | .... 
+.T.. | .T.. 
+TTT. | TTT. 
 
 step=1, rand=0, actions=&lt;RotateRight&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 ..I. | ..I. 
 ..I. | ..I. 
 ..I. | ..I. 
 ..I. | ..I. 
-.T.. | .... 
-TTT. | .... 
+.T.. | .T.. 
+TTT. | TTT. 
 
 step=2, rand=0, actions=&lt;Right&gt;
-Want | Got ✗
+Want | Got ✓
 ------------
 ...I | ...I 
 ...I | ...I 
 ...I | ...I 
 ...I | ...I 
-.T.. | .... 
-TTT. | .... 
+.T.. | .T.. 
+TTT. | TTT. 
 
 step=3, rand=5, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.T.. | ...I 
-TTT. | ...I 
+.T.. | .T.. 
+TTT. | TTT. 
 .... | ...I 
 ...I | ...I 
-...I | .... 
-.T.I | .... 
+...I | .T.I 
+.T.I | TTTI 
 
 step=4, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.T.. | ...I 
-.TT. | ...I 
-.T.. | ...I 
+.T.. | .T.. 
+.TT. | .TT. 
+.T.. | .T.I 
 ...I | ...I 
-...I | .... 
-.T.I | .... 
+...I | .T.I 
+.T.I | TTTI 
 
 step=5, rand=5, actions=&lt;Left&gt;
 Want | Got ✗
 ------------
-T... | ..I. 
-TT.. | ..I. 
-T... | ..I. 
-...I | ..I. 
-...I | .... 
-.T.I | .... 
+T... | T... 
+TT.. | TT.. 
+T... | T..I 
+...I | ...I 
+...I | .T.I 
+.T.I | TTTI 
 
 step=6, rand=0, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.... | ..I. 
-IIII | ..I. 
-.... | ..I. 
-T..I | ..I. 
-TT.I | .... 
-TT.I | .... 
+.... | .... 
+IIII | IIII 
+.... | T..I 
+T..I | TT.I 
+TT.I | TT.I 
+TT.I | TTTI 
 
 step=7, rand=0, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-..I. | .... 
-..I. | .... 
-..I. | IIII 
-T.II | .... 
-TT.I | .... 
-TT.I | .... 
+..I. | ..I. 
+..I. | ..I. 
+..I. | T.II 
+T.II | TTII 
+TT.I | TT.I 
+TT.I | TTTI 
 
 step=8, rand=5, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.T.. | .... 
-TTT. | .... 
-.... | IIII 
-.... | .... 
-..I. | .... 
-T.II | .... 
+.T.. | .T.. 
+TTT. | TTT. 
+.... | T.II 
+.... | TTII 
+..I. | TTII 
+T.II | TTTI 
 
 step=9, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.T.. | .I.. 
-.TT. | .I.. 
-.T.. | .I.. 
-.... | .I.. 
-..I. | .... 
-T.II | .... 
+.T.. | .T.. 
+.TT. | TTT. 
+.T.. | T.II 
+.... | TTII 
+..I. | TTII 
+T.II | TTTI 
 
 step=10, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.... | .... 
-TTT. | IIII 
-.T.. | .... 
-.... | .... 
-..I. | .... 
-T.II | .... 
+.... | .T.. 
+TTT. | TTT. 
+.T.. | T.II 
+.... | TTII 
+..I. | TTII 
+T.II | TTTI 
 
 step=11, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.T.. | ..I. 
-TT.. | ..I. 
-.T.. | ..I. 
-.... | ..I. 
-..I. | .... 
-T.II | .... 
+.T.. | .T.. 
+TT.. | TTT. 
+.T.. | T.II 
+.... | TTII 
+..I. | TTII 
+T.II | TTTI 
 
 step=12, rand=0, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.... | ..I. 
-IIII | ..I. 
-.... | ..I. 
-.... | ..I. 
-.T.. | .... 
-TTI. | .... 
+.... | .T.. 
+IIII | TTT. 
+.... | T.II 
+.... | TTII 
+.T.. | TTII 
+TTI. | TTTI 
 
 step=13, rand=0, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-..I. | .... 
-..I. | .... 
-..I. | IIII 
-..I. | .... 
-.T.. | .... 
-TTI. | .... 
+..I. | .T.. 
+..I. | TTT. 
+..I. | T.II 
+..I. | TTII 
+.T.. | TTII 
+TTI. | TTTI 
 
 step=14, rand=0, actions=&lt;Right&gt;
 Want | Got ✗
 ------------
-...I | .... 
-...I | .... 
-...I | IIII 
-...I | .... 
-.T.. | .... 
-TTI. | .... 
+...I | .T.. 
+...I | TTT. 
+...I | T.II 
+...I | TTII 
+.T.. | TTII 
+TTI. | TTTI 
 
 step=15, rand=5, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.T.. | .... 
-TTT. | .... 
-.... | IIII 
-...I | .... 
-...I | .... 
-.T.I | .... 
+.T.. | .T.. 
+TTT. | TTT. 
+.... | T.II 
+...I | TTII 
+...I | TTII 
+.T.I | TTTI 
 
 step=16, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.T.. | .I.. 
-.TT. | .I.. 
-.T.. | .I.. 
-...I | .I.. 
-...I | .... 
-.T.I | .... 
+.T.. | .T.. 
+.TT. | TTT. 
+.T.. | T.II 
+...I | TTII 
+...I | TTII 
+.T.I | TTTI 
 
 step=17, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.... | .... 
-TTT. | IIII 
-.T.. | .... 
-...I | .... 
-...I | .... 
-.T.I | .... 
+.... | .T.. 
+TTT. | TTT. 
+.T.. | T.II 
+...I | TTII 
+...I | TTII 
+.T.I | TTTI 
 
 step=18, rand=5, actions=&lt;RotateRight&gt;
 Want | Got ✗
 ------------
-.T.. | ..I. 
-TT.. | ..I. 
-.T.. | ..I. 
-...I | ..I. 
-...I | .... 
-.T.I | .... 
+.T.. | .T.. 
+TT.. | TTT. 
+.T.. | T.II 
+...I | TTII 
+...I | TTII 
+.T.I | TTTI 
 
 step=19, rand=5, actions=&lt;Right&gt;
 Want | Got ✗
 ------------
-..T. | ...I 
-.TT. | ...I 
-..T. | ...I 
-...I | ...I 
-...I | .... 
-.T.I | .... 
+..T. | .T.. 
+.TT. | TTT. 
+..T. | T.II 
+...I | TTII 
+...I | TTII 
+.T.I | TTTI 
 
 step=20, rand=0, actions=&lt;Drop&gt;
 Want | Got ✗
 ------------
-.... | ...I 
-IIII | ...I 
-.... | ...I 
-..TI | ...I 
-.TTI | .... 
-.TTI | .... 
+.... | .T.. 
+IIII | TTT. 
+.... | T.II 
+..TI | TTII 
+.TTI | TTII 
+.TTI | TTTI 
 
 
 	at app//org.scalatest.Assertions.newAssertionFailedException(Assertions.scala:530)
@@ -393,7 +393,7 @@ IIII | ...I
 </thead>
 <tr>
 <td class="failures">testDrop</td>
-<td class="failures">0.038s</td>
+<td class="failures">0.039s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -403,16 +403,20 @@ IIII | ...I
 <span class="code">
 <pre>Rotated Right
 Moved Right
+not at end, dropping more
+not at end, dropping more
+not at end, dropping more
+newPiece
+Rotated Right
 Moved Left
+not at end, dropping more
+not at end, dropping more
+not at end, dropping more
+newPiece
 Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Moved Right
+not at end, dropping more
+not at end, dropping more
+newPiece
 </pre>
 </span>
 </div>
@@ -424,7 +428,7 @@ Moved Right
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.10</a> at Oct 1, 2024, 2:22:04 AM</p>
+<a href="http://www.gradle.org">Gradle 8.10</a> at Oct 2, 2024, 4:02:32 AM</p>
 </div>
 </div>
 </body>

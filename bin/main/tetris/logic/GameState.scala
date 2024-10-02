@@ -31,9 +31,7 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         return -1
     }
 // use integers to check for specific bound behaviour
-    //def pieceInFloor() : GameState = {
-        
-    //}
+
 
     def newPiecePlacement() : GameState = {
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
@@ -109,6 +107,18 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
             return newGameState(newPiecePos = nPiecePos)
         }
     }
+
+    def drop(currGameState : GameState) : GameState = {
+        val nPiecePos : (Int, Int) = (piecePos._1, piecePos._2 + 1)
+        val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
+        if(currGameState.boundCheck(newPieceAbsPos) != 3){
+            println("not at end, dropping more")
+            val nGameState : GameState = currGameState.moveDown()
+            return drop(nGameState)
+        }
+        return currGameState
+    }
+
     def pointInPiece(piece : List[Point],p : Point) : Boolean = {
         for(i <- piece){
             if(i.sameAs(p)){

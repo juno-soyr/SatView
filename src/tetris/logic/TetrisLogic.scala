@@ -22,10 +22,12 @@ class TetrisLogic(val randomGen: RandomGenerator,
 
   val initialBoardMap: Map[Point, CellType] =  (
     for {
-      x <- 0 until gridDims.width
+      x <- 0 until gridDims.width 
       y <- 0 until gridDims.height
-    } yield Point(x,y) -> Empty
+    } yield if(initialBoard(y)(x) != Empty) Point(x,y) -> initialBoard(y)(x)
+      else Point(x,y) -> Empty
   ).toMap
+
   var currGameState : GameState = new GameState(gridDims, randomGen, new NormalTetronimo(0, List(), Empty),(0,0),initialBoardMap).newPiecePlacement()
   // TODO implement me
   def rotateLeft(): Unit = {
@@ -47,7 +49,9 @@ class TetrisLogic(val randomGen: RandomGenerator,
   }
 
   // TODO implement me
-  def doHardDrop(): Unit = ()
+  def doHardDrop(): Unit = {
+    currGameState = currGameState.drop(currGameState)
+  }
 
   // TODO implement me
   def isGameOver: Boolean = false
