@@ -102,7 +102,7 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
         if(boundCheck(newPieceAbsPos) == 3){
             println("newPiece")
-            return newGameState(newNewPieceFlag = true)
+            return newGameState( newNewPieceFlag = true)
         }else{
             return newGameState(newPiecePos = nPiecePos)
         }
@@ -128,7 +128,34 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         return false
     }
 
-    //use this only for setted pieces?
+    //use this only for setted pieces
+    def checkLine(newBoard : Map[Point, CellType] ,y : Int) : Boolean = {
+        newBoard.filter{ case(Point(_,col),_) => col == y
+        }.forall{case (_, ctype) => ctype != Empty}
+    }
+
+    def clearOneLine(currBoard : Map[Point, CellType], col : Int) : Map[Point, CellType] = {
+        if(checkLine(currBoard, col)){
+            println("Removing line:", col)
+            val newBoard : Map[Point, CellType]= currBoard.map{
+                case(point @ Point(x,y), cellType) => 
+                    if(point.y <= col){
+                        val aboveCellType = currBoard.get(Point(x,y - 1)).getOrElse(cellType)
+                        Point(x,y) -> aboveCellType
+                    }else Point(x,y) -> cellType
+            }
+            return newBoard
+        }else return currBoard 
+    }
+    def clearLines(currBoard : Map[Point, CellType],col : Int): Map[Point, CellType] = {
+        if(col > gridDims.height - 1){
+            currBoard
+        }else{
+            val nBoard : Map[Point, CellType] = clearOneLine(currBoard,col)
+            clearLines(nBoard, col + 1)
+        }
+    }
+
 
     def reloadBoard(currPiecePos : List[Point], currPiece : CellType) : Map[Point, CellType] = {
         val newBoard : Map[Point, CellType] = board.map {
@@ -139,7 +166,8 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
                 key -> value
             }
         }.toMap
-        return newBoard
+        val nBoard : Map[Point, CellType] = clearLines(newBoard, 0)
+        return nBoard
     }
     def newGameState(gridDims : Dimensions = gridDims, randomGen : RandomGenerator = randomGen, 
                     newPiece : Tetronimo = piece, newPiecePos : (Int, Int) = piecePos, 
