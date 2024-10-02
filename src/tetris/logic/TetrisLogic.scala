@@ -3,7 +3,7 @@ package tetris.logic
 import engine.random.{RandomGenerator, ScalaRandomGen}
 import tetris.logic.TetrisLogic._
 import com.lowagie.text.Cell
-import java.text.Normalizer
+
 
 /** To implement Tetris, complete the ``TODOs`` below.
  *
@@ -54,7 +54,9 @@ class TetrisLogic(val randomGen: RandomGenerator,
   }
 
   // TODO implement me
-  def isGameOver: Boolean = false
+  def isGameOver: Boolean = {
+    currGameState.gameOver
+  }
 
   // TODO implement me
   def getCellType(p : Point): CellType = {

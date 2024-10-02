@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.RotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-10-02T16:02:28" hostname="thinkpad" time="0.052">
+<testsuite name="tetris.RotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-10-02T18:57:14" hostname="thinkpad" time="0.1">
   <properties/>
-  <testcase name="testIRotations" classname="tetris.RotationTests" time="0.012"/>
-  <testcase name="testJRotations" classname="tetris.RotationTests" time="0.007"/>
-  <testcase name="testLRotations" classname="tetris.RotationTests" time="0.006"/>
-  <testcase name="testORotations" classname="tetris.RotationTests" time="0.007"/>
-  <testcase name="testSRotations" classname="tetris.RotationTests" time="0.005"/>
-  <testcase name="testTRotations" classname="tetris.RotationTests" time="0.004"/>
-  <testcase name="testZRotations" classname="tetris.RotationTests" time="0.005"/>
+  <testcase name="testIRotations" classname="tetris.RotationTests" time="0.027"/>
+  <testcase name="testJRotations" classname="tetris.RotationTests" time="0.013"/>
+  <testcase name="testLRotations" classname="tetris.RotationTests" time="0.013"/>
+  <testcase name="testORotations" classname="tetris.RotationTests" time="0.011"/>
+  <testcase name="testSRotations" classname="tetris.RotationTests" time="0.012"/>
+  <testcase name="testTRotations" classname="tetris.RotationTests" time="0.009"/>
+  <testcase name="testZRotations" classname="tetris.RotationTests" time="0.009"/>
   <system-out><![CDATA[Rotated Right
 Rotated Right
 Rotated Right

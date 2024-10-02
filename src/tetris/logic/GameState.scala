@@ -3,9 +3,12 @@ package tetris.logic
 import tetris.logic.Tetronimo
 import engine.random.RandomGenerator
 import com.lowagie.text.Cell
-import java.text.Normalizer
 
-class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val piece : Tetronimo,val piecePos : (Int, Int) = (0,0), val board : Map[Point, CellType] ,val newPieceFlag : Boolean = false){
+case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
+                val piece : Tetronimo,val piecePos : (Int, Int) = (0,0), val board : Map[Point, CellType] ,
+                val newPieceFlag : Boolean = false, val gameOver : Boolean = false){
+
+
     val allPieces : Map[Int,(List[Point],CellType)] = Map(
         0 -> (List(Point(-1,0),Point(0,0),Point(1,0),Point(2,0)),ICell),
         1 -> (List(Point(-1,-1),Point(0,0),Point(-1,0),Point(1,0)),JCell),
@@ -52,8 +55,12 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
             } else {
                 ((gridDims.width / 2) - 1, 1)
             }
-
-        return new GameState(gridDims, randomGen,basePiece,newPiecePos,nBoard, false)
+        
+        val newNewPieceAbsPos : List[Point] = basePiece.struct.map(p => Point(p.x + newPiecePos._1, p.y + newPiecePos._2))
+        if(boundCheck(newNewPieceAbsPos) == 3){
+            return this.copy(gameOver = true)
+        }
+        return this.copy(gridDims, randomGen,basePiece,newPiecePos,nBoard)
     }
     
     def rotatePieceLeft() : GameState = {
@@ -61,9 +68,9 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val newPieceAbsPos : List[Point] = newPiece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
         if(boundCheck(newPieceAbsPos) != 2 && boundCheck(newPieceAbsPos) != 3){
             println("Rotated Left")
-            return newGameState(newPiece = newPiece)
+            return this.copy(piece = newPiece)
         }else{
-            return newGameState()
+            return this.copy()
         }
     }
 
@@ -72,9 +79,9 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val newPieceAbsPos : List[Point] = newPiece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
         if(boundCheck(newPieceAbsPos) != 2 && boundCheck(newPieceAbsPos) != 3){
             println("Rotated Right")
-            return newGameState(newPiece = newPiece)
+            return this.copy(piece = newPiece)
         }else{
-            return newGameState()
+            return this.copy()
         }
     }
     def moveLeft() : GameState = {
@@ -82,9 +89,9 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + newPiecePos._1, p.y + newPiecePos._2))
         if(boundCheck(newPieceAbsPos) != 2 && boundCheck(newPieceAbsPos) != 3){
             println("Moved Left")
-            return newGameState(newPiecePos = newPiecePos)
+            return this.copy(piecePos = newPiecePos)
         }else{
-            return newGameState()
+            return this.copy()
         }    
     }
     def moveRight() : GameState = {
@@ -92,26 +99,26 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + newPiecePos._1, p.y + newPiecePos._2))
         if(boundCheck(newPieceAbsPos) != 2 && boundCheck(newPieceAbsPos) != 3){
             println("Moved Right")
-            return newGameState(newPiecePos = newPiecePos)
+            return this.copy(piecePos = newPiecePos)
         }else{
-            return newGameState()
+            return this.copy()
         }
     }
-    def moveDown() : GameState = {
+    def moveDown(drop : Boolean = false) : GameState = {
         val nPiecePos : (Int, Int) = (piecePos._1, piecePos._2 + 1)
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
         if(boundCheck(newPieceAbsPos) == 3){
             println("newPiece")
-            return newGameState( newNewPieceFlag = true)
+            return this.copy().newPiecePlacement()
         }else{
-            return newGameState(newPiecePos = nPiecePos)
+            return this.copy(piecePos = nPiecePos)
         }
     }
 
     def drop(currGameState : GameState) : GameState = {
         val nPiecePos : (Int, Int) = (piecePos._1, piecePos._2 + 1)
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
-        if(currGameState.boundCheck(newPieceAbsPos) != 3){
+        if(!currGameState.newPieceFlag){
             println("not at end, dropping more")
             val nGameState : GameState = currGameState.moveDown()
             return drop(nGameState)
@@ -169,14 +176,5 @@ class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,val p
         val nBoard : Map[Point, CellType] = clearLines(newBoard, 0)
         return nBoard
     }
-    def newGameState(gridDims : Dimensions = gridDims, randomGen : RandomGenerator = randomGen, 
-                    newPiece : Tetronimo = piece, newPiecePos : (Int, Int) = piecePos, 
-                    newBoard : Map[Point, CellType] = board, newNewPieceFlag : Boolean = newPieceFlag)
-                    : GameState = {
-        if(!newNewPieceFlag){
-            return new GameState(gridDims, randomGen, newPiece, newPiecePos, newBoard, newNewPieceFlag)
-        }else{
-            return new GameState(gridDims,randomGen, newPiece, newPiecePos, board, false).newPiecePlacement()
-        }
-    }
+
 }
