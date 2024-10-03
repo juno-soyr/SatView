@@ -32,8 +32,7 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
         return -1
     }
     def newPiecePlacement() : GameState = {
-        val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
-        val nBoard : Map[Point,CellType] = reloadBoard(newPieceAbsPos, piece.blockType)
+        val nBoard : Map[Point,CellType] = reloadBoard(currPieceAbsPos, piece.blockType)
         val pieceIndex : Int = randomGen.randomInt(7)
         
         val basePiece : Tetronimo = 

@@ -9449,3 +9449,160 @@ WARNING: Unmatched cancel notification for request id 9
 2024.10.03 11:29:46 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
 Oct 03, 2024 11:29:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.10.03 14:14:27 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+2024.10.03 14:14:27 INFO  time: initialize in 0.11s
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@669e237f]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@42ae72c7]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@669e237f]
+2024.10.03 14:14:30 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:14:32 INFO  Attempting to connect to the build server...
+2024.10.03 14:14:36 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:14:40 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:14:40 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 03, 2024 2:14:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Oct 03, 2024 2:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Oct 03, 2024 2:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Oct 03, 2024 2:14:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2024.10.03 14:14:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+Oct 03, 2024 2:14:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2024.10.03 14:14:48 INFO  time: Connected to build server in 16s
+2024.10.03 14:14:48 INFO  Connected to Build server: Bloop v1.6.0
+2024.10.03 14:14:49 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.03 14:14:49 INFO  time: Imported build in 0.72s
+2024.10.03 14:14:50 INFO  running doctor check
+2024.10.03 14:14:50 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+2024.10.03 14:14:56 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 14:14:58 INFO  time: indexed workspace in 8.72s
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala
+2024.10.03 14:14:58 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala
+2024.10.03 14:14:59 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala
+2024.10.03 14:15:02 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 14:15:05 WARN  javac exited with exit code 1
+2024.10.03 14:15:05 INFO  time: compiled OOFP-Tetris-2024-test in 3.27s
+2024.10.03 14:15:05 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:05 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 14:15:09 WARN  javac exited with exit code 1
+2024.10.03 14:15:09 INFO  time: compiled OOFP-Tetris-2024-test in 3.28s
+2024.10.03 14:15:09 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 14:15:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:11 WARN  javac exited with exit code 1
+2024.10.03 14:15:11 INFO  time: compiled OOFP-Tetris-2024-test in 1.88s
+2024.10.03 14:15:11 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:11 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:11 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:11 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:12 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:15:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 2:15:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 03, 2024 2:15:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:17:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 14:27:57 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 14:28:06 INFO  time: compiled OOFP-Tetris-2024 in 9.23s
+2024.10.03 14:28:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 14:28:06 INFO  time: compiled OOFP-Tetris-2024 in 0.54s
+2024.10.03 14:29:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 14:29:06 INFO  time: compiled OOFP-Tetris-2024 in 4.37s
+Oct 03, 2024 2:32:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

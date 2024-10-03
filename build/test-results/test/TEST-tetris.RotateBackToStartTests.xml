@@ -1,42 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.RotateBackToStartTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:14:11" hostname="thinkpad" time="0.326">
+<testsuite name="tetris.RotateBackToStartTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-10-03T12:29:18" hostname="thinkpad" time="0.143">
   <properties/>
-  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.006"/>
-  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.007"/>
-  <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.008"/>
-  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.009"/>
-  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.006"/>
-  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.006"/>
-  <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.005"/>
-  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.007"/>
-  <system-out><![CDATA[Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Right
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Right
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Right
-Rotated Left
-Rotated Left
-Rotated Left
-Rotated Right
-Rotated Right
-]]></system-out>
+  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.003"/>
+  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.005"/>
+  <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.003"/>
+  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.003"/>
+  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.002"/>
+  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.002"/>
+  <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.002"/>
+  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
