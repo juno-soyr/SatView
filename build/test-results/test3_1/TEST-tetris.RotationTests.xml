@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.RotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-09-30T18:54:53" hostname="thinkpad" time="0.08">
+<testsuite name="tetris.RotationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:13:04" hostname="thinkpad" time="0.103">
   <properties/>
-  <testcase name="testIRotations" classname="tetris.RotationTests" time="0.023"/>
-  <testcase name="testJRotations" classname="tetris.RotationTests" time="0.01"/>
-  <testcase name="testLRotations" classname="tetris.RotationTests" time="0.007"/>
-  <testcase name="testORotations" classname="tetris.RotationTests" time="0.009"/>
+  <testcase name="testIRotations" classname="tetris.RotationTests" time="0.03"/>
+  <testcase name="testJRotations" classname="tetris.RotationTests" time="0.015"/>
+  <testcase name="testLRotations" classname="tetris.RotationTests" time="0.013"/>
+  <testcase name="testORotations" classname="tetris.RotationTests" time="0.013"/>
   <testcase name="testSRotations" classname="tetris.RotationTests" time="0.008"/>
-  <testcase name="testTRotations" classname="tetris.RotationTests" time="0.009"/>
+  <testcase name="testTRotations" classname="tetris.RotationTests" time="0.01"/>
   <testcase name="testZRotations" classname="tetris.RotationTests" time="0.008"/>
   <system-out><![CDATA[Rotated Right
 Rotated Right

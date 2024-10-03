@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.BlockedTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-10-02T18:57:15" hostname="thinkpad" time="0.06">
+<testsuite name="tetris.BlockedTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:20:39" hostname="thinkpad" time="0.053">
   <properties/>
-  <testcase name="testMoveOutLeft" classname="tetris.BlockedTests" time="0.008"/>
+  <testcase name="testMoveOutLeft" classname="tetris.BlockedTests" time="0.004"/>
   <testcase name="testMoveOutRight" classname="tetris.BlockedTests" time="0.005"/>
-  <testcase name="testBlockedByBlocksLeft" classname="tetris.BlockedTests" time="0.002"/>
-  <testcase name="testBlockedByBlocksRight" classname="tetris.BlockedTests" time="0.005"/>
-  <testcase name="testBlockedByBlocksRotateLeft" classname="tetris.BlockedTests" time="0.004"/>
-  <testcase name="testBlockedByBlocksRotateRight" classname="tetris.BlockedTests" time="0.004"/>
-  <testcase name="testRotateLeftOutRight" classname="tetris.BlockedTests" time="0.006"/>
-  <testcase name="testRotateRightOutRight" classname="tetris.BlockedTests" time="0.005"/>
-  <testcase name="testRotateLeftOutLeft" classname="tetris.BlockedTests" time="0.004"/>
-  <testcase name="testRotateRightOutLeft" classname="tetris.BlockedTests" time="0.004"/>
-  <testcase name="testRotateOutBottom" classname="tetris.BlockedTests" time="0.005"/>
+  <testcase name="testBlockedByBlocksLeft" classname="tetris.BlockedTests" time="0.004"/>
+  <testcase name="testBlockedByBlocksRight" classname="tetris.BlockedTests" time="0.004"/>
+  <testcase name="testBlockedByBlocksRotateLeft" classname="tetris.BlockedTests" time="0.002"/>
+  <testcase name="testBlockedByBlocksRotateRight" classname="tetris.BlockedTests" time="0.005"/>
+  <testcase name="testRotateLeftOutRight" classname="tetris.BlockedTests" time="0.005"/>
+  <testcase name="testRotateRightOutRight" classname="tetris.BlockedTests" time="0.004"/>
+  <testcase name="testRotateLeftOutLeft" classname="tetris.BlockedTests" time="0.006"/>
+  <testcase name="testRotateRightOutLeft" classname="tetris.BlockedTests" time="0.005"/>
+  <testcase name="testRotateOutBottom" classname="tetris.BlockedTests" time="0.003"/>
   <system-out><![CDATA[Moved Left
 Moved Left
 Moved Right
@@ -19,11 +19,8 @@ Moved Right
 Moved Right
 Moved Left
 Rotated Right
-Rotated Left
 Moved Right
-Rotated Left
 Moved Right
-Rotated Left
 Moved Left
 Rotated Right
 Moved Left

@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.MovementTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-30T18:54:53" hostname="thinkpad" time="0.031">
+<testsuite name="tetris.MovementTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:13:04" hostname="thinkpad" time="0.052">
   <properties/>
-  <testcase name="testMovement" classname="tetris.MovementTests" time="0.015"/>
-  <testcase name="testMovement2" classname="tetris.MovementTests" time="0.015"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testMovement" classname="tetris.MovementTests" time="0.034"/>
+  <testcase name="testMovement2" classname="tetris.MovementTests" time="0.018"/>
+  <system-out><![CDATA[Moved Left
+Moved Right
+Moved Right
+Moved Right
+Moved Left
+Moved Left
+Moved Left
+Moved Right
+Moved Right
+Moved Right
+Moved Left
+Moved Left
+Moved Right
+Moved Right
+Moved Right
+Moved Right
+Moved Left
+Moved Left
+Moved Left
+Moved Left
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

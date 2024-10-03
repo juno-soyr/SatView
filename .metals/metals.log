@@ -8551,3 +8551,683 @@ WARNING: offset 6061, count -1, length 7487
 2024.10.02 18:01:02 INFO  time: compiled OOFP-Tetris-2024 in 1.82s
 2024.10.02 18:04:17 INFO  compiling oofp-tetris-2024 (1 scala source)
 2024.10.02 18:04:19 INFO  time: compiled OOFP-Tetris-2024 in 1.31s
+2024.10.03 08:58:53 INFO  Started: Metals version 1.3.5 in folders '/home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024' for client Visual Studio Code 1.93.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@87e58ec]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@733ecdd2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@87e58ec]
+2024.10.03 08:58:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 08:59:02 INFO  Attempting to connect to the build server...
+Oct 03, 2024 8:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Oct 03, 2024 8:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Oct 03, 2024 8:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2024.10.03 08:59:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/bsp.trace.json or /home/juno/.cache/metals/bsp.trace.json
+2024.10.03 08:59:11 INFO  time: Connected to build server in 8.95s
+2024.10.03 08:59:11 INFO  Connected to Build server: Bloop v1.6.0
+2024.10.03 08:59:11 INFO  time: Imported build in 0.47s
+2024.10.03 08:59:11 INFO  running doctor check
+2024.10.03 08:59:11 INFO  java targets: OOFP-Tetris-2024-test, OOFP-Tetris-2024
+2024.10.03 08:59:21 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.03 08:59:21 INFO  time: indexed workspace in 9.8s
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala
+2024.10.03 08:59:22 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala
+2024.10.03 08:59:22 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala
+2024.10.03 08:59:22 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala
+2024.10.03 08:59:22 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala
+2024.10.03 08:59:21 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala
+2024.10.03 08:59:22 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 08:59:24 WARN  javac exited with exit code 1
+2024.10.03 08:59:24 INFO  time: compiled OOFP-Tetris-2024-test in 1.54s
+2024.10.03 08:59:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:24 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 08:59:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:26 WARN  javac exited with exit code 1
+2024.10.03 08:59:26 INFO  time: compiled OOFP-Tetris-2024-test in 1.97s
+2024.10.03 08:59:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:26 INFO  compiling oofp-tetris-2024-test (20 scala sources and 2 java sources)
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:28 WARN  javac exited with exit code 1
+2024.10.03 08:59:28 INFO  time: compiled OOFP-Tetris-2024-test in 1.8s
+2024.10.03 08:59:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 08:59:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+Oct 03, 2024 9:01:25 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-10-03/r_compiler-error_(OOFP-Tetris-2024-test)_09-01-25-758.md
+2024.10.03 09:01:25 INFO  time: compiled OOFP-Tetris-2024 in 7.32s
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/TestRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ScoreCounter.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Triangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ListRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/ScalaRandomGen.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/random/RandomGenerator.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/CellType.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Point.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Dimensions.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/GameTestSuite.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/generic/StringUtils.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/ClearLinesTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/GameOverTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuitesBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuiteBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/PlacementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/DropTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/FullGameTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/SpawnTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotationTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/RotateBackToStartTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/BlockedTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/MovementTests.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/ReportFraction.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_1.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/infrastructure/TestBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/test/tetris/TetrisTestSuite3_2.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/GameBase.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Rectangle.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/engine/graphics/Color.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/game/TetrisGame.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/TetrisLogic.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:01:52 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/Tetronimo.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 09:03:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:41 INFO  time: compiled OOFP-Tetris-2024 in 2.96s
+2024.10.03 09:03:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:03:45 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:03:47 INFO  time: compiled OOFP-Tetris-2024 in 2.59s
+2024.10.03 09:03:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:49 INFO  time: compiled OOFP-Tetris-2024 in 0.57s
+2024.10.03 09:03:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:49 INFO  time: compiled OOFP-Tetris-2024 in 0.39s
+2024.10.03 09:03:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:55 INFO  time: compiled OOFP-Tetris-2024 in 2.08s
+2024.10.03 09:03:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:03:55 INFO  time: compiled OOFP-Tetris-2024 in 0.7s
+2024.10.03 09:04:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:09 INFO  time: compiled OOFP-Tetris-2024 in 0.46s
+2024.10.03 09:04:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:13 INFO  time: compiled OOFP-Tetris-2024 in 0.37s
+2024.10.03 09:04:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:29 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:30 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:30 INFO  time: compiled OOFP-Tetris-2024 in 0.35s
+2024.10.03 09:04:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:32 INFO  time: compiled OOFP-Tetris-2024 in 0.36s
+2024.10.03 09:04:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:36 INFO  time: compiled OOFP-Tetris-2024 in 0.31s
+2024.10.03 09:04:41 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:42 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:43 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:44 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:46 INFO  time: compiled OOFP-Tetris-2024 in 0.32s
+2024.10.03 09:04:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:46 INFO  time: compiled OOFP-Tetris-2024 in 0.34s
+2024.10.03 09:04:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:46 INFO  time: compiled OOFP-Tetris-2024 in 0.27s
+2024.10.03 09:04:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:49 INFO  time: compiled OOFP-Tetris-2024 in 0.28s
+2024.10.03 09:04:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:49 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:49 INFO  time: compiled OOFP-Tetris-2024 in 0.31s
+Oct 03, 2024 9:04:49 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.10.03 09:04:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:50 INFO  time: compiled OOFP-Tetris-2024 in 0.4s
+2024.10.03 09:04:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:04:50 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:50 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:04:57 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:03 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:04 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:05 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:07 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:08 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:10 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:11 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:14 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:15 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:16 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:05:16 INFO  time: compiled OOFP-Tetris-2024 in 0.24s
+2024.10.03 09:05:17 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:25 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:05:25 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.10.03 09:05:25 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:05:25 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:25 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.10.03 09:05:26 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:32 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:33 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:34 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:05:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:35 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:05:36 INFO  time: compiled OOFP-Tetris-2024 in 1.67s
+2024.10.03 09:05:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:05:42 INFO  time: compiled OOFP-Tetris-2024 in 2.15s
+2024.10.03 09:06:14 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:06:14 INFO  time: compiled OOFP-Tetris-2024 in 0.29s
+2024.10.03 09:06:14 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:06:14 INFO  time: compiled OOFP-Tetris-2024 in 0.26s
+2024.10.03 09:06:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:06:18 INFO  time: compiled OOFP-Tetris-2024 in 0.28s
+2024.10.03 09:06:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:06:25 INFO  time: compiled OOFP-Tetris-2024 in 1.74s
+2024.10.03 09:06:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:06:33 INFO  time: compiled OOFP-Tetris-2024 in 2.1s
+Oct 03, 2024 9:07:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 717
+2024.10.03 09:07:31 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:07:33 INFO  time: compiled OOFP-Tetris-2024 in 1.53s
+2024.10.03 09:07:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:07:34 INFO  time: compiled OOFP-Tetris-2024 in 0.78s
+2024.10.03 09:07:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:07:45 INFO  time: compiled OOFP-Tetris-2024 in 1.38s
+2024.10.03 09:08:14 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:08:15 INFO  time: compiled OOFP-Tetris-2024 in 1.33s
+Oct 03, 2024 9:08:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 923
+2024.10.03 09:08:50 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:08:52 INFO  time: compiled OOFP-Tetris-2024 in 1.41s
+2024.10.03 09:09:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:09:10 INFO  time: compiled OOFP-Tetris-2024 in 1.34s
+2024.10.03 09:10:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:10:04 INFO  time: compiled OOFP-Tetris-2024 in 1.6s
+2024.10.03 09:10:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:10:16 INFO  time: compiled OOFP-Tetris-2024 in 1.32s
+2024.10.03 09:10:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:10:40 INFO  time: compiled OOFP-Tetris-2024 in 1.31s
+2024.10.03 09:10:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:10:56 INFO  time: compiled OOFP-Tetris-2024 in 1.24s
+2024.10.03 09:11:15 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:11:16 INFO  time: compiled OOFP-Tetris-2024 in 1.32s
+2024.10.03 09:17:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:17:25 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.10.03 09:17:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:17:38 INFO  time: compiled OOFP-Tetris-2024 in 1.96s
+2024.10.03 09:17:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:17:42 INFO  time: compiled OOFP-Tetris-2024 in 1.24s
+2024.10.03 09:22:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:22:42 INFO  time: compiled OOFP-Tetris-2024 in 1.39s
+2024.10.03 09:24:08 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:09 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.10.03 09:24:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:09 INFO  time: compiled OOFP-Tetris-2024 in 0.33s
+2024.10.03 09:24:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:19 INFO  time: compiled OOFP-Tetris-2024 in 1.3s
+Oct 03, 2024 9:24:22 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 4844, count -1, length 7140
+Oct 03, 2024 9:24:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1625
+2024.10.03 09:24:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:33 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.10.03 09:24:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:33 INFO  time: compiled OOFP-Tetris-2024 in 78ms
+2024.10.03 09:24:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:33 INFO  time: compiled OOFP-Tetris-2024 in 77ms
+2024.10.03 09:24:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:36 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+Oct 03, 2024 9:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1672
+2024.10.03 09:24:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:24:48 INFO  time: compiled OOFP-Tetris-2024 in 1.24s
+2024.10.03 09:25:11 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:25:13 INFO  time: compiled OOFP-Tetris-2024 in 1.57s
+2024.10.03 09:25:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:25:20 INFO  time: compiled OOFP-Tetris-2024 in 1.21s
+2024.10.03 09:25:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:25:24 INFO  time: compiled OOFP-Tetris-2024 in 1.28s
+2024.10.03 09:25:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:25:37 INFO  time: compiled OOFP-Tetris-2024 in 1.21s
+2024.10.03 09:28:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:28:39 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+2024.10.03 09:28:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:28:41 INFO  time: compiled OOFP-Tetris-2024 in 1.41s
+2024.10.03 09:29:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:29:42 INFO  time: compiled OOFP-Tetris-2024 in 1.31s
+2024.10.03 09:30:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:43 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.10.03 09:30:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:43 INFO  time: compiled OOFP-Tetris-2024 in 89ms
+2024.10.03 09:30:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:43 INFO  time: compiled OOFP-Tetris-2024 in 88ms
+2024.10.03 09:30:45 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:45 INFO  time: compiled OOFP-Tetris-2024 in 87ms
+2024.10.03 09:30:46 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:46 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.10.03 09:30:55 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:30:56 INFO  time: compiled OOFP-Tetris-2024 in 1.69s
+2024.10.03 09:31:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:31:05 INFO  time: compiled OOFP-Tetris-2024 in 2.11s
+2024.10.03 09:31:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:31:32 INFO  time: compiled OOFP-Tetris-2024 in 1.43s
+2024.10.03 09:31:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:31:38 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.10.03 09:31:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:31:51 INFO  time: compiled OOFP-Tetris-2024 in 1.38s
+2024.10.03 09:32:09 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:09 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.10.03 09:32:09 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Oct 03, 2024 9:32:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2293
+2024.10.03 09:32:12 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:13 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.10.03 09:32:13 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:16 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+Oct 03, 2024 9:32:17 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.10.03 09:32:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:18 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:18 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:20 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:32:20 WARN  Using indexes to guess the definition of newPieceFlag
+2024.10.03 09:32:20 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.10.03 09:32:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:25 INFO  time: compiled OOFP-Tetris-2024 in 1.22s
+2024.10.03 09:32:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:33 INFO  time: compiled OOFP-Tetris-2024 in 1.6s
+2024.10.03 09:32:36 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:38 INFO  time: compiled OOFP-Tetris-2024 in 1.25s
+2024.10.03 09:32:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:41 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.10.03 09:32:48 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:50 INFO  time: compiled OOFP-Tetris-2024 in 1.23s
+Oct 03, 2024 9:32:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2410
+Oct 03, 2024 9:32:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2436
+2024.10.03 09:32:59 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:32:59 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.10.03 09:33:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:33:01 INFO  time: compiled OOFP-Tetris-2024 in 0.12s
+2024.10.03 09:33:01 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:33:02 INFO  time: compiled OOFP-Tetris-2024 in 91ms
+2024.10.03 09:33:06 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:33:08 INFO  time: compiled OOFP-Tetris-2024 in 1.21s
+2024.10.03 09:33:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:33:41 INFO  time: compiled OOFP-Tetris-2024 in 1.19s
+2024.10.03 09:33:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:33:45 INFO  time: compiled OOFP-Tetris-2024 in 1.54s
+2024.10.03 09:34:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:34:04 INFO  time: compiled OOFP-Tetris-2024 in 1.2s
+2024.10.03 09:34:10 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:34:11 INFO  time: compiled OOFP-Tetris-2024 in 1.27s
+2024.10.03 09:34:16 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:34:16 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.10.03 09:34:32 INFO  compiling oofp-tetris-2024 (1 scala source)
+Oct 03, 2024 9:34:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2745
+2024.10.03 09:34:34 INFO  time: compiled OOFP-Tetris-2024 in 1.28s
+2024.10.03 09:34:39 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:34:40 INFO  time: compiled OOFP-Tetris-2024 in 1.25s
+2024.10.03 09:34:52 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:34:54 INFO  time: compiled OOFP-Tetris-2024 in 1.27s
+2024.10.03 09:36:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:36:04 INFO  time: compiled OOFP-Tetris-2024 in 1.59s
+2024.10.03 09:36:49 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:36:51 INFO  time: compiled OOFP-Tetris-2024 in 1.44s
+2024.10.03 09:36:56 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:36:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:36:56 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 09:36:57 INFO  time: compiled OOFP-Tetris-2024 in 1.32s
+2024.10.03 09:37:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:37:03 INFO  time: compiled OOFP-Tetris-2024 in 1.21s
+2024.10.03 09:37:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:37:35 INFO  time: compiled OOFP-Tetris-2024 in 1.27s
+2024.10.03 09:37:44 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:37:45 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.10.03 09:38:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:38:24 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+Oct 03, 2024 9:38:26 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 03, 2024 9:38:26 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.10.03 09:38:28 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:38:30 INFO  time: compiled OOFP-Tetris-2024 in 1.53s
+2024.10.03 09:40:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:40:55 INFO  time: compiled OOFP-Tetris-2024 in 1.33s
+2024.10.03 09:43:03 INFO  compiling oofp-tetris-2024 (1 scala source)
+Oct 03, 2024 9:43:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3273
+2024.10.03 09:43:05 INFO  time: compiled OOFP-Tetris-2024 in 1.34s
+2024.10.03 09:45:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:45:39 INFO  time: compiled OOFP-Tetris-2024 in 1.3s
+2024.10.03 09:46:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:46:01 INFO  time: compiled OOFP-Tetris-2024 in 1.35s
+2024.10.03 09:46:11 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:46:12 INFO  time: compiled OOFP-Tetris-2024 in 1.23s
+2024.10.03 09:46:24 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:46:25 INFO  time: compiled OOFP-Tetris-2024 in 1.23s
+Oct 03, 2024 9:46:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3527
+2024.10.03 09:47:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:17 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.10.03 09:47:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:21 INFO  time: compiled OOFP-Tetris-2024 in 0.2s
+2024.10.03 09:47:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:21 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.10.03 09:47:21 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:22 INFO  time: compiled OOFP-Tetris-2024 in 0.16s
+2024.10.03 09:47:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:23 INFO  time: compiled OOFP-Tetris-2024 in 0.23s
+2024.10.03 09:47:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:23 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.10.03 09:47:23 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:23 INFO  time: compiled OOFP-Tetris-2024 in 0.19s
+2024.10.03 09:47:29 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:31 INFO  time: compiled OOFP-Tetris-2024 in 1.61s
+2024.10.03 09:47:34 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:35 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.10.03 09:47:53 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:47:54 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.10.03 09:48:37 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:48:37 INFO  time: compiled OOFP-Tetris-2024 in 0.13s
+2024.10.03 09:48:40 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:48:41 INFO  time: compiled OOFP-Tetris-2024 in 1.26s
+2024.10.03 09:49:13 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:49:13 INFO  time: compiled OOFP-Tetris-2024 in 0.22s
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[tetris.logic.Point,<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1170, 1170, 1189)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[tetris.logic.Point,<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1170, 1170, 1190)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[tetris.logic.Point,<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1170, 1170, 1183)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[tetris.logic.Point,<error>]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1170, 1170, 1185)
+something's wrong: no file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala in Map[tetris.logic.Point,com.lowagie.text.Cell]RangePosition(file:///home/juno/Uni/2024-2025/Period%201/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala, 1170, 1170, 1186)
+2024.10.03 09:49:30 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:49:30 INFO  time: compiled OOFP-Tetris-2024 in 0.21s
+2024.10.03 09:49:33 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:49:33 INFO  time: compiled OOFP-Tetris-2024 in 0.14s
+2024.10.03 09:49:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:49:36 INFO  time: compiled OOFP-Tetris-2024 in 1.2s
+2024.10.03 09:49:38 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:49:39 INFO  time: compiled OOFP-Tetris-2024 in 1.2s
+2024.10.03 09:49:58 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 09:50:00 INFO  time: compiled OOFP-Tetris-2024 in 1.25s
+Oct 03, 2024 9:51:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4147
+2024.10.03 09:51:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:14 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:15 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:15 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:18 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:19 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:04:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:21 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:04:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4196
+2024.10.03 10:04:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:27 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:04:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:04:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:05:13 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:06:09 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:06:11 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:06:16 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:08:55 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:22 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:25 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:28 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:12:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-10-03/r_compiler-error_10-12-30-479.md
+2024.10.03 10:12:30 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:30 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+Oct 03, 2024 10:12:30 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-10-03/r_compiler-error_10-12-30-931.md
+2024.10.03 10:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:34 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:12:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:36 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:36 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:39 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:42 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:42 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:12:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4282
+2024.10.03 10:12:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:12:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4285
+2024.10.03 10:12:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:12:43 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:12:56 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:03 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:15 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:15 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:15 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:13:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:23 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:13:23 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/.metals/.reports/metals-full/2024-10-03/r_compiler-error_10-13-23-546.md
+2024.10.03 10:13:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:24 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:25 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:13:26 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:27 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:29 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:30 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:13:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:31 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:33 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:34 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:35 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:13:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:37 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:37 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:37 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:38 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:38 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:38 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:39 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:42 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:45 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:45 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:46 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:46 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:13:46 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:13:47 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+Oct 03, 2024 10:13:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4397
+2024.10.03 10:13:57 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:14:10 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:14:12 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:14:12 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:14:14 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:14:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:14:20 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:35 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:39 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:40 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:40 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:43 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:44 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:44 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:45 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:46 WARN  no build target for: /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala
+2024.10.03 10:15:46 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:47 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:15:51 INFO  no build target found for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/bin/main/tetris/logic/GameState.scala. Using presentation compiler with project's scala-library version: 2.13.14
+2024.10.03 10:16:19 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:16:22 INFO  time: compiled OOFP-Tetris-2024 in 3.06s
+2024.10.03 10:16:35 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:16:37 INFO  time: compiled OOFP-Tetris-2024 in 2.71s
+2024.10.03 10:16:43 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:16:45 INFO  time: compiled OOFP-Tetris-2024 in 2.19s
+2024.10.03 10:18:00 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:18:03 INFO  time: compiled OOFP-Tetris-2024 in 2.63s
+2024.10.03 10:18:04 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:18:06 INFO  time: compiled OOFP-Tetris-2024 in 1.97s
+2024.10.03 10:18:41 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:18:43 INFO  time: compiled OOFP-Tetris-2024 in 2.13s
+2024.10.03 10:18:47 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:18:49 INFO  time: compiled OOFP-Tetris-2024 in 2.39s
+2024.10.03 10:18:54 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:55 WARN  Could not load snapshot text for /home/juno/Uni/2024-2025/Period 1/OOFP/OOFP-Tetris-2024/src/tetris/logic/GameState.scala
+2024.10.03 10:18:56 INFO  time: compiled OOFP-Tetris-2024 in 2.84s
+2024.10.03 10:19:02 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:19:04 INFO  time: compiled OOFP-Tetris-2024 in 2.31s
+2024.10.03 10:20:17 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:20:20 INFO  time: compiled OOFP-Tetris-2024 in 2.34s
+Oct 03, 2024 10:21:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5128
+2024.10.03 10:21:14 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:21:16 INFO  time: compiled OOFP-Tetris-2024 in 2.33s
+2024.10.03 10:21:20 INFO  compiling oofp-tetris-2024 (1 scala source)
+2024.10.03 10:21:22 INFO  time: compiled OOFP-Tetris-2024 in 2.07s
+Oct 03, 2024 10:24:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

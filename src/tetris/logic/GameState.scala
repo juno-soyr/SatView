@@ -6,7 +6,7 @@ import com.lowagie.text.Cell
 
 case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
                 val piece : Tetronimo,val piecePos : (Int, Int) = (0,0), val board : Map[Point, CellType] ,
-                val newPieceFlag : Boolean = false, val gameOver : Boolean = false){
+                val newPieceFlag : Boolean = false, val gameOver : Boolean = false, val drop : Boolean = false){
 
 
     val allPieces : Map[Int,(List[Point],CellType)] = Map(
@@ -20,14 +20,14 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
     )    
     val currPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
 
-    def boundCheck(currPos : List[Point]) : Int = {
+    def boundCheck(currPos : List[Point], boardVal : Map[Point, CellType] = board) : Int = {
         for(p <- currPos){
             if (p.x > gridDims.width - 1 || p.x < 0 ){
                 return 2
             }
             else if(p.y > gridDims.height - 1){
                 return 3
-            }else if(board(p) != Empty){
+            }else if(boardVal(p) != Empty){
                 return 3
             }
         }
@@ -57,17 +57,16 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
             }
         
         val newNewPieceAbsPos : List[Point] = basePiece.struct.map(p => Point(p.x + newPiecePos._1, p.y + newPiecePos._2))
-        if(boundCheck(newNewPieceAbsPos) == 3){
+        if(boundCheck(newNewPieceAbsPos, nBoard) == 3){
             return this.copy(gameOver = true)
         }
-        return this.copy(gridDims, randomGen,basePiece,newPiecePos,nBoard)
+        return this.copy(gridDims, randomGen,basePiece,newPiecePos,nBoard,newPieceFlag = false, drop = false)
     }
     
     def rotatePieceLeft() : GameState = {
         val newPiece : Tetronimo = piece.rotateLeft
         val newPieceAbsPos : List[Point] = newPiece.struct.map(p => Point(p.x + piecePos._1, p.y + piecePos._2))
         if(boundCheck(newPieceAbsPos) != 2 && boundCheck(newPieceAbsPos) != 3){
-            println("Rotated Left")
             return this.copy(piece = newPiece)
         }else{
             return this.copy()
@@ -104,13 +103,16 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
             return this.copy()
         }
     }
-    def moveDown(drop : Boolean = false) : GameState = {
+    def moveDown() : GameState = {
         val nPiecePos : (Int, Int) = (piecePos._1, piecePos._2 + 1)
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
-        if(boundCheck(newPieceAbsPos) == 3){
+        if(boundCheck(newPieceAbsPos) == 3 && !drop){
             println("newPiece")
-            return this.copy().newPiecePlacement()
-        }else{
+            return this.copy(newPieceFlag = true).newPiecePlacement()
+        }else if(boundCheck(newPieceAbsPos) == 3 && drop){
+            return this.copy(newPieceFlag = true)
+        }
+        else{
             return this.copy(piecePos = nPiecePos)
         }
     }
@@ -118,12 +120,12 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
     def drop(currGameState : GameState) : GameState = {
         val nPiecePos : (Int, Int) = (piecePos._1, piecePos._2 + 1)
         val newPieceAbsPos : List[Point] = piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
-        if(!currGameState.newPieceFlag){
-            println("not at end, dropping more")
-            val nGameState : GameState = currGameState.moveDown()
-            return drop(nGameState)
+        var nGameState : GameState = currGameState.copy(drop = true)
+        while(!nGameState.newPieceFlag){
+            
+            nGameState = nGameState.moveDown() 
         }
-        return currGameState
+        return nGameState.newPiecePlacement()
     }
 
     def pointInPiece(piece : List[Point],p : Point) : Boolean = {
@@ -143,7 +145,6 @@ case class GameState(val gridDims : Dimensions, val randomGen : RandomGenerator,
 
     def clearOneLine(currBoard : Map[Point, CellType], col : Int) : Map[Point, CellType] = {
         if(checkLine(currBoard, col)){
-            println("Removing line:", col)
             val newBoard : Map[Point, CellType]= currBoard.map{
                 case(point @ Point(x,y), cellType) => 
                     if(point.y <= col){

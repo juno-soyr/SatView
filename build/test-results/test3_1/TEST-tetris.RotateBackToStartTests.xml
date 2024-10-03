@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.RotateBackToStartTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-09-30T18:54:53" hostname="thinkpad" time="0.028">
+<testsuite name="tetris.RotateBackToStartTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:13:04" hostname="thinkpad" time="0.038">
   <properties/>
-  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.005"/>
-  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.007"/>
+  <testcase name="testRotate360" classname="tetris.RotateBackToStartTests" time="0.01"/>
+  <testcase name="testRotate360CC" classname="tetris.RotateBackToStartTests" time="0.008"/>
   <testcase name="testRotateLeftRight" classname="tetris.RotateBackToStartTests" time="0.005"/>
-  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.008"/>
+  <testcase name="testRotateRightLeft" classname="tetris.RotateBackToStartTests" time="0.012"/>
   <system-out><![CDATA[Rotated Right
 Rotated Right
 Rotated Right
