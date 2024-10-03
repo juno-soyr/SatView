@@ -8,7 +8,7 @@ abstract class Tetronimo {
     val blockType : CellType
     def containsPoint(p : Point) : Boolean ={
         for(i <- struct){
-            if(i.sameAs(p)) return true
+            if(i == p) return true
         }
         return false
     }

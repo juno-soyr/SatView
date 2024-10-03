@@ -29,7 +29,7 @@ class TetrisLogic(val randomGen: RandomGenerator,
   ).toMap
 
   var currGameState : GameState = new GameState(gridDims, randomGen, new NormalTetronimo(0, List(), Empty),(0,0),initialBoardMap).newPiecePlacement()
-  // TODO implement me
+
   def rotateLeft(): Unit = {
     currGameState = currGameState.rotatePieceLeft()
   }
@@ -43,24 +43,26 @@ class TetrisLogic(val randomGen: RandomGenerator,
     currGameState = currGameState.moveRight()
   }
 
-  // TODO implement me
   def moveDown(): Unit = {
     currGameState = currGameState.moveDown()
   }
 
-  // TODO implement me
   def doHardDrop(): Unit = {
-    currGameState = currGameState.drop(currGameState)
+    val nPiecePos : (Int, Int) = (currGameState.piecePos._1, currGameState.piecePos._2 + 1)
+    val newPieceAbsPos : List[Point] = currGameState.piece.struct.map(p => Point(p.x + nPiecePos._1, p.y + nPiecePos._2))
+    currGameState = currGameState.copy(drop = true)
+    while(!currGameState.newPieceFlag){
+      currGameState = currGameState.moveDown() 
+    }
+    currGameState = currGameState.newPiecePlacement()
   }
 
-  // TODO implement me
   def isGameOver: Boolean = {
     currGameState.gameOver
   }
 
-  // TODO implement me
   def getCellType(p : Point): CellType = {
-    if(currGameState.pointInPiece(currGameState.currPieceAbsPos, p)){
+    if(currGameState.currPieceAbsPos.contains(p)){
       currGameState.piece.blockType
     }else{
       currGameState.board(p)

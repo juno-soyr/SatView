@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.ClearLinesTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-03T08:20:39" hostname="thinkpad" time="0.06">
+<testsuite name="tetris.ClearLinesTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-03T09:24:22" hostname="thinkpad" time="0.041">
   <properties/>
-  <testcase name="testClear1Line" classname="tetris.ClearLinesTests" time="0.009"/>
-  <testcase name="testClear1LineMiddle" classname="tetris.ClearLinesTests" time="0.014"/>
-  <testcase name="testClear2Lines" classname="tetris.ClearLinesTests" time="0.012"/>
-  <testcase name="testClear3Lines" classname="tetris.ClearLinesTests" time="0.01"/>
-  <testcase name="testClear4Lines" classname="tetris.ClearLinesTests" time="0.012"/>
-  <system-out><![CDATA[Rotated Right
-newPiece
-Rotated Right
-Moved Right
-newPiece
-Rotated Right
-Moved Right
-newPiece
-Rotated Right
-Moved Right
-newPiece
-Rotated Right
-Moved Left
-newPiece
-]]></system-out>
+  <testcase name="testClear1Line" classname="tetris.ClearLinesTests" time="0.005"/>
+  <testcase name="testClear1LineMiddle" classname="tetris.ClearLinesTests" time="0.01"/>
+  <testcase name="testClear2Lines" classname="tetris.ClearLinesTests" time="0.008"/>
+  <testcase name="testClear3Lines" classname="tetris.ClearLinesTests" time="0.006"/>
+  <testcase name="testClear4Lines" classname="tetris.ClearLinesTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
