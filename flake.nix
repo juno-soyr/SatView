@@ -13,8 +13,10 @@
         {
           devShells.default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
+              jdk8
               (scala.override { jre = pkgs.jdk8; })
               metals
+              jogl
               gradle
             ];
           };
