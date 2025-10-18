@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.DropTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-03T12:29:18" hostname="thinkpad" time="0.014">
-  <properties/>
-  <testcase name="testDrop" classname="tetris.DropTests" time="0.014"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

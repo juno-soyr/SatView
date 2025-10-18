@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tetris.SpawnTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-03T12:32:25" hostname="thinkpad" time="0.011">
-  <properties/>
-  <testcase name="testSpawn" classname="tetris.SpawnTests" time="0.004"/>
-  <testcase name="testSpawn2" classname="tetris.SpawnTests" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
