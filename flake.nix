@@ -15,7 +15,7 @@
             nativeBuildInputs = with pkgs; [
               (scala.override { jre = pkgs.jdk8; })
               metals
-              gradle_6
+              gradle
             ];
           };
         };

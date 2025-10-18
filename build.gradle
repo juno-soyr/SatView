@@ -36,9 +36,9 @@ sourceSets.test.scala.srcDirs = ['test']
 
 dependencies {
     implementation "com.github.micycle1:processing-core-4:4.3"
-    implementation 'org.jogamp.gluegen:gluegen-rt-main:2.5.0-rc-20230523'
+    implementation 'org.jogamp.gluegen:gluegen-rt-main:2.5.0-rc'
 // https://mvnrepository.com/artifact/org.jogamp.gluegen/gluegen-rt
-    implementation 'org.jogamp.gluegen:gluegen-rt:2.5.0-rc-20230523'
+    implementation 'org.jogamp.gluegen:gluegen-rt:2.5.0-rc'
 
     implementation "org.scala-lang:scala-library:2.13.14"
     testImplementation('junit:junit:4.13.2')
