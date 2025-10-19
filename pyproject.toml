@@ -13,8 +13,8 @@ packages = [
 python = "^3.12"
 numpy = "^2.3.4"
 sgp4 = "^2.25"
-matplotlib = "^3.10.7"
 pandas = "^2.3.3"
+black = {extras = ["d"], version = "^25.9.0"}
 
 
 [build-system]
