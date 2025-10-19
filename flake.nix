@@ -1,21 +1,29 @@
 {
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
-  inputs.flake-parts.url = "github:hercules-ci/flake-parts";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+  inputs.poetry2nix.url = "github:nix-community/poetry2nix";
 
-  outputs =
-    inputs@{ flake-parts, ... }:
-    flake-parts.lib.mkFlake { inherit inputs; } {
-      systems = [
-        "x86_64-linux"
-      ];
-      perSystem =
-        { pkgs, ... }:
-        {
-          devShells.default = pkgs.mkShell {
-            nativeBuildInputs = with pkgs; [
-              python3
-            ];
-          };
+  outputs = { self, nixpkgs, poetry2nix }:
+    let
+      supportedSystems = [ "x86_64-linux" "x86_64-darwin" "aarch64-linux" "aarch64-darwin" ];
+      forAllSystems = nixpkgs.lib.genAttrs supportedSystems;
+      pkgs = forAllSystems (system: nixpkgs.legacyPackages.${system});
+    in
+    {
+      packages = forAllSystems (system: let
+        inherit (poetry2nix.lib.mkPoetry2Nix { pkgs = pkgs.${system}; }) mkPoetryApplication;
+      in {
+        default = mkPoetryApplication { projectDir = self; };
+      });
+
+      devShells = forAllSystems (system: let
+        inherit (poetry2nix.lib.mkPoetry2Nix { pkgs = pkgs.${system}; }) mkPoetryEnv;
+      in {
+        default = pkgs.${system}.mkShellNoCC {
+          packages = with pkgs.${system}; [
+            (mkPoetryEnv { projectDir = self; })
+            poetry
+          ];
         };
+      });
     };
 }
