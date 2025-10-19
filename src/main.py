@@ -1,4 +1,3 @@
 import sgp4
-def project(): 
-    print("a")
-
+if __name__ == "__main__":
+    print("Start")
