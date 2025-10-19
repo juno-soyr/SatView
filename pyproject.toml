@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "sample-project"
-version = "0.1.0"
-description = ""
-authors = ["Author Name <author@example.com>"]
+name = "Satview"
+version = "1.0"
+description = "Satellite trajectory viewer"
+authors = ["Haileselassie Gaspar <h.gaspar@proton.me>"]
 readme = "README.md"
 license = "MIT"
 packages = [
@@ -10,7 +10,12 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.12"
+numpy = "^2.3.4"
+sgp4 = "^2.25"
+matplotlib = "^3.10.7"
+pandas = "^2.3.3"
+
 
 [build-system]
 requires = ["poetry-core"]
