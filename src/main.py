@@ -1,3 +1,10 @@
-if __name__ == "__main__":
+import sgp4
+import numpy as np
 
-    print("Start")
+
+def
+
+
+
+if __name__ == "__main__":
+    print(2)
